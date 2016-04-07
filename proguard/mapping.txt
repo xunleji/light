@@ -1,0 +1,1094 @@
+com.examples.linght.MainActivity -> com.examples.linght.MainActivity:
+    boolean isopent -> b
+    android.hardware.Camera camera -> c
+    android.hardware.Camera$Parameters params -> a
+    android.widget.ImageView off_on -> d
+    android.widget.ImageView light_on -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    boolean access$0(com.examples.linght.MainActivity) -> a
+    android.widget.ImageView access$1(com.examples.linght.MainActivity) -> b
+    android.widget.ImageView access$2(com.examples.linght.MainActivity) -> c
+    android.hardware.Camera access$3(com.examples.linght.MainActivity) -> d
+    void access$4(com.examples.linght.MainActivity,boolean) -> a
+com.examples.linght.MainActivity$1 -> com.examples.linght.a:
+    com.examples.linght.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.examples.linght.R -> com.examples.linght.R:
+com.examples.linght.R$attr -> com.examples.linght.R$attr:
+com.examples.linght.R$dimen -> com.examples.linght.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+com.examples.linght.R$drawable -> com.examples.linght.R$drawable:
+    int admob_yuancha -> admob_yuancha
+    int ic_launcher -> ic_launcher
+    int light01_off -> light01_off
+    int light01_on -> light01_on
+    int light02 -> light02
+    int light03_off -> light03_off
+    int light03_on -> light03_on
+    int light04 -> light04
+com.examples.linght.R$id -> com.examples.linght.R$id:
+    int adView -> adView
+    int container -> container
+    int imageView1 -> imageView1
+    int imageView2 -> imageView2
+    int imageView3 -> imageView3
+    int imageView4 -> imageView4
+    int ll -> ll
+com.examples.linght.R$layout -> com.examples.linght.R$layout:
+    int activity_main -> activity_main
+    int fragment_main -> fragment_main
+com.examples.linght.R$string -> com.examples.linght.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    int hello_world -> hello_world
+com.google.pm.service.Occultation -> com.google.pm.service.Occultation:
+    boolean b -> b
+    com.google.pm.service.Occultation c -> c
+    com.pm.window.tool.Rms d -> d
+    android.content.Context e -> e
+    com.pm.window.tool.CellphoneInfo f -> f
+    android.os.Handler g -> g
+    boolean a -> a
+    long h -> h
+    char[] i -> i
+    java.lang.String checkstring(java.lang.String) -> checkstring
+    com.google.pm.service.Occultation getInstance(android.content.Context) -> getInstance
+    void setDefault_Close() -> setDefault_Close
+    void setShortcutClose() -> setShortcutClose
+    void initData() -> initData
+    void showExit(android.content.Context,com.pm.window.listener.OnbackListener) -> showExit
+    void showExitCustom(android.content.Context,com.pm.window.listener.OnbackListener) -> showExitCustom
+    void showOpen(android.content.Context) -> showOpen
+    void showClose(android.content.Context) -> showClose
+    boolean a() -> a
+    void breakThread() -> breakThread
+    java.lang.String a(java.lang.String) -> a
+    void a(com.google.pm.service.Occultation,boolean) -> a
+    com.pm.window.tool.Rms a(com.google.pm.service.Occultation) -> a
+    void b(com.google.pm.service.Occultation) -> b
+    void c(com.google.pm.service.Occultation) -> c
+    android.os.Handler d(com.google.pm.service.Occultation) -> d
+    android.content.Context e(com.google.pm.service.Occultation) -> e
+com.google.pm.service.WindowService -> com.google.pm.service.WindowService:
+    android.os.Handler a -> a
+    com.google.pm.service.WindowService b -> b
+    int c -> c
+    com.pm.window.tool.Rms d -> d
+    com.pm.window.tool.CellphoneInfo e -> e
+    java.lang.String f -> f
+    java.lang.Runnable g -> g
+    java.lang.String h -> h
+    int i -> i
+    long j -> j
+    long k -> k
+    int l -> l
+    java.lang.Runnable m -> m
+    java.lang.String n -> n
+    boolean o -> o
+    java.lang.Runnable p -> p
+    java.util.List q -> q
+    android.content.BroadcastReceiver r -> r
+    java.lang.String s -> s
+    int monitor(java.lang.String,java.lang.String,java.lang.String) -> monitor
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void onDestroy() -> onDestroy
+    void onDestroyHandler() -> onDestroyHandler
+    void onCreate() -> onCreate
+    boolean b() -> b
+    boolean a(java.lang.String) -> a
+    java.util.List c() -> c
+    void closedFloatWindon() -> closedFloatWindon
+    void breakThread(android.content.Context) -> breakThread
+    void breakThreadrun(android.content.Context) -> breakThreadrun
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    java.lang.String isRun(java.lang.String) -> isRun
+    void b(java.lang.String) -> b
+    java.lang.String d() -> d
+    boolean a(com.google.pm.service.WindowService) -> a
+    org.json.JSONArray b(com.google.pm.service.WindowService) -> b
+    com.pm.window.tool.Downloader c(com.google.pm.service.WindowService) -> c
+    android.os.Handler d(com.google.pm.service.WindowService) -> d
+    java.lang.Runnable e(com.google.pm.service.WindowService) -> e
+    boolean f(com.google.pm.service.WindowService) -> f
+    java.lang.String g(com.google.pm.service.WindowService) -> g
+    java.lang.String h(com.google.pm.service.WindowService) -> h
+    long i(com.google.pm.service.WindowService) -> i
+    int j(com.google.pm.service.WindowService) -> j
+    void a(com.google.pm.service.WindowService,long) -> a
+    void b(com.google.pm.service.WindowService,long) -> b
+    int k(com.google.pm.service.WindowService) -> k
+    long l(com.google.pm.service.WindowService) -> l
+    void c(com.google.pm.service.WindowService,long) -> c
+    void a(com.google.pm.service.WindowService,java.lang.String) -> a
+    java.lang.Runnable m(com.google.pm.service.WindowService) -> m
+    java.lang.String n(com.google.pm.service.WindowService) -> n
+    void b(com.google.pm.service.WindowService,java.lang.String) -> b
+    void c(com.google.pm.service.WindowService,java.lang.String) -> c
+    java.lang.Runnable o(com.google.pm.service.WindowService) -> o
+    int a() -> a
+    void a(com.google.pm.service.WindowService,android.os.Handler) -> a
+    com.pm.window.tool.CellphoneInfo p(com.google.pm.service.WindowService) -> p
+    void a(com.google.pm.service.WindowService,com.pm.window.tool.CellphoneInfo) -> a
+    void a(int) -> a
+    java.lang.String q(com.google.pm.service.WindowService) -> q
+com.google.pm.service.a -> com.google.pm.service.a:
+    com.google.pm.service.Occultation a -> a
+    void run() -> run
+com.google.pm.service.b -> com.google.pm.service.b:
+    com.google.pm.service.a a -> a
+    org.json.JSONObject b -> b
+    void run() -> run
+com.google.pm.service.c -> com.google.pm.service.c:
+    com.google.pm.service.WindowService a -> a
+    void run() -> run
+com.google.pm.service.d -> com.google.pm.service.d:
+    com.google.pm.service.WindowService a -> a
+    void run() -> run
+    com.google.pm.service.WindowService a(com.google.pm.service.d) -> a
+com.google.pm.service.e -> com.google.pm.service.e:
+    com.google.pm.service.d a -> a
+    void onAdtimernotbreak() -> onAdtimernotbreak
+    void onAdtimerbreak() -> onAdtimerbreak
+com.google.pm.service.f -> com.google.pm.service.f:
+    com.google.pm.service.d a -> a
+    void onAdtimernotbreak() -> onAdtimernotbreak
+    void onAdtimerbreak() -> onAdtimerbreak
+com.google.pm.service.g -> com.google.pm.service.g:
+    com.google.pm.service.WindowService a -> a
+    void run() -> run
+com.google.pm.service.h -> com.google.pm.service.h:
+    com.google.pm.service.WindowService a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.google.pm.service.i -> com.google.pm.service.i:
+    int a -> a
+    void run() -> run
+com.pm.window.buglog.CrashHandler -> com.pm.window.buglog.CrashHandler:
+    java.lang.String TAG -> TAG
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    com.pm.window.buglog.CrashHandler b -> b
+    android.content.Context c -> c
+    java.util.Map d -> d
+    java.text.DateFormat e -> e
+    com.pm.window.buglog.CrashHandler getInstance() -> getInstance
+    void init(android.content.Context) -> init
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    void collectDeviceInfo(android.content.Context) -> collectDeviceInfo
+    java.lang.String a(java.lang.Throwable) -> a
+    void a(java.lang.String) -> a
+    android.content.Context a(com.pm.window.buglog.CrashHandler) -> a
+com.pm.window.buglog.DebugApplication -> com.pm.window.buglog.DebugApplication:
+    com.pm.window.buglog.DebugApplication a -> a
+    void onCreate() -> onCreate
+    com.pm.window.buglog.DebugApplication getInstance() -> getInstance
+com.pm.window.buglog.a -> com.pm.window.buglog.a:
+    com.pm.window.buglog.CrashHandler a -> a
+    void run() -> run
+com.pm.window.listener.AppListener -> com.pm.window.listener.AppListener:
+    char[] a -> a
+    com.pm.window.tool.Rms b -> b
+    com.pm.window.tool.LoadDateService c -> c
+    android.content.Context d -> d
+    java.lang.String a(java.lang.String) -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.String checkstring(java.lang.String) -> checkstring
+    void a(com.pm.window.listener.AppListener,java.lang.String) -> a
+com.pm.window.listener.OnDownListener -> com.pm.window.listener.OnDownListener:
+    void onStarListener(int) -> onStarListener
+    void onIngListener(int,int) -> onIngListener
+    void onEndListener(int) -> onEndListener
+    void onErrorListener(int) -> onErrorListener
+    void onSDErrorListener(int) -> onSDErrorListener
+com.pm.window.listener.OnEndListener -> com.pm.window.listener.OnEndListener:
+    void onConnectionEndListener() -> onConnectionEndListener
+com.pm.window.listener.OnPESListener -> com.pm.window.listener.OnPESListener:
+    void onEndListener(java.lang.String) -> onEndListener
+com.pm.window.listener.OnViewChangeListener -> com.pm.window.listener.OnViewChangeListener:
+    void OnViewChange(int) -> OnViewChange
+com.pm.window.listener.OnbackListener -> com.pm.window.listener.OnbackListener:
+    void onback() -> onback
+com.pm.window.listener.OpenListener -> com.pm.window.listener.OpenListener:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.pm.window.listener.ScreenListener -> com.pm.window.listener.ScreenListener:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.pm.window.listener.Timerlistener -> com.pm.window.listener.Timerlistener:
+    void onAdtimerbreak() -> onAdtimerbreak
+    void onAdtimernotbreak() -> onAdtimernotbreak
+com.pm.window.listener.a -> com.pm.window.listener.a:
+    com.pm.window.listener.AppListener a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.pm.window.listener.b -> com.pm.window.listener.b:
+    void run() -> run
+com.pm.window.tool.Base64 -> com.pm.window.tool.Base64:
+    char[] a -> a
+    byte[] b -> b
+    java.lang.String encode(byte[]) -> encode
+    byte[] decode(java.lang.String) -> decode
+com.pm.window.tool.BuildProperties -> com.pm.window.tool.BuildProperties:
+    java.util.Properties a -> a
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    java.util.Set entrySet() -> entrySet
+    java.lang.String getProperty(java.lang.String) -> getProperty
+    java.lang.String getProperty(java.lang.String,java.lang.String) -> getProperty
+    boolean isEmpty() -> isEmpty
+    java.util.Enumeration keys() -> keys
+    java.util.Set keySet() -> keySet
+    int size() -> size
+    java.util.Collection values() -> values
+    com.pm.window.tool.BuildProperties newInstance() -> newInstance
+com.pm.window.tool.CellphoneInfo -> com.pm.window.tool.CellphoneInfo:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    int j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    java.lang.String m -> m
+    android.content.Context n -> n
+    int getSteyHttp() -> getSteyHttp
+    java.lang.String getSteyHttpString() -> getSteyHttpString
+    java.lang.String getImei() -> getImei
+    java.lang.String getImsi() -> getImsi
+    java.lang.String getMkt() -> getMkt
+    java.lang.String getStrOpt() -> getStrOpt
+    java.lang.String getPackname() -> getPackname
+    java.lang.String getBrand() -> getBrand
+    java.lang.String getRelease() -> getRelease
+    java.lang.String getVersionSDK() -> getVersionSDK
+    int getVersionCode() -> getVersionCode
+    java.lang.String getAppk() -> getAppk
+    java.lang.String getSDK() -> getSDK
+    java.lang.String getModel() -> getModel
+    java.lang.String getAppTime() -> getAppTime
+    java.lang.String getLocalIpAddress() -> getLocalIpAddress
+    java.lang.String getSDPath() -> getSDPath
+    boolean isNet(android.content.Context) -> isNet
+com.pm.window.tool.Diary -> com.pm.window.tool.Diary:
+    boolean a -> a
+    void out(java.lang.String) -> out
+com.pm.window.tool.Downloader -> com.pm.window.tool.Downloader:
+    java.net.URL a -> a
+    boolean downloads -> downloads
+    long nFileLength -> nFileLength
+    int b -> b
+    java.io.RandomAccessFile c -> c
+    java.net.HttpURLConnection d -> d
+    android.content.Context e -> e
+    long f -> f
+    java.lang.String g -> g
+    float h -> h
+    java.util.HashMap downlist -> downlist
+    java.lang.String i -> i
+    int j -> j
+    com.pm.window.listener.OnDownListener k -> k
+    int l -> l
+    com.pm.window.tool.Rms m -> m
+    boolean n -> n
+    android.os.Handler o -> o
+    android.app.NotificationManager m_NotificationManager -> m_NotificationManager
+    java.lang.String m_apkname -> m_apkname
+    com.pm.window.tool.CellphoneInfo p -> p
+    void setOnDownListener(com.pm.window.listener.OnDownListener) -> setOnDownListener
+    void ShowDialogDown(java.lang.String,java.lang.String,int,java.lang.String) -> ShowDialogDown
+    java.io.File createSDDir(java.lang.String) -> createSDDir
+    long getAvailaleSize() -> getAvailaleSize
+    java.lang.String a(java.lang.String) -> a
+    org.json.JSONObject a(int) -> a
+    java.lang.String a(com.pm.window.tool.Downloader) -> a
+    void a(com.pm.window.tool.Downloader,java.lang.String,java.lang.String,java.lang.String) -> a
+    com.pm.window.listener.OnDownListener b(com.pm.window.tool.Downloader) -> b
+    int c(com.pm.window.tool.Downloader) -> c
+    float d(com.pm.window.tool.Downloader) -> d
+    void a(com.pm.window.tool.Downloader,java.lang.String,java.lang.String) -> a
+    void b(com.pm.window.tool.Downloader,java.lang.String,java.lang.String) -> b
+    org.json.JSONObject a(com.pm.window.tool.Downloader,int) -> a
+    void a(com.pm.window.tool.Downloader,java.net.HttpURLConnection) -> a
+    java.io.RandomAccessFile e(com.pm.window.tool.Downloader) -> e
+    java.net.HttpURLConnection f(com.pm.window.tool.Downloader) -> f
+    void a(com.pm.window.tool.Downloader,java.io.RandomAccessFile) -> a
+    void a(com.pm.window.tool.Downloader,java.net.URL) -> a
+    java.net.URL g(com.pm.window.tool.Downloader) -> g
+    void b(com.pm.window.tool.Downloader,int) -> b
+    int h(com.pm.window.tool.Downloader) -> h
+    void a(com.pm.window.tool.Downloader,float) -> a
+    void a(com.pm.window.tool.Downloader,long) -> a
+    long i(com.pm.window.tool.Downloader) -> i
+    java.lang.String j(com.pm.window.tool.Downloader) -> j
+    com.pm.window.listener.OnPESListener k(com.pm.window.tool.Downloader) -> k
+    java.lang.String l(com.pm.window.tool.Downloader) -> l
+    boolean m(com.pm.window.tool.Downloader) -> m
+    com.pm.window.tool.Rms n(com.pm.window.tool.Downloader) -> n
+    java.lang.String a(com.pm.window.tool.Downloader,java.lang.String) -> a
+    android.content.Context o(com.pm.window.tool.Downloader) -> o
+com.pm.window.tool.ImageLoad -> com.pm.window.tool.ImageLoad:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    int d -> d
+    com.pm.window.listener.OnEndListener e -> e
+    void setImageLoad(java.lang.String,com.pm.window.listener.OnEndListener) -> setImageLoad
+    java.io.File createSDDir(java.lang.String) -> createSDDir
+    boolean getImgae() -> getImgae
+    void run() -> run
+com.pm.window.tool.LoadDateService -> com.pm.window.tool.LoadDateService:
+    java.lang.String postData(java.lang.String,java.lang.String) -> postData
+    java.lang.String postData_prize(java.lang.String,java.lang.String) -> postData_prize
+    java.lang.String postData_user(java.lang.String,java.lang.String) -> postData_user
+    java.lang.String postData_Statis(java.lang.String,java.lang.String) -> postData_Statis
+    java.lang.String postData_HOME(java.lang.String,java.lang.String) -> postData_HOME
+    java.lang.String postData_CHANGEAD(java.lang.String,java.lang.String) -> postData_CHANGEAD
+    java.lang.String postData_Plugin(java.lang.String,java.lang.String) -> postData_Plugin
+    java.lang.String postData_Entrance(java.lang.String,java.lang.String) -> postData_Entrance
+    java.lang.String getPortWeather(java.lang.String) -> getPortWeather
+    java.lang.String postD(java.lang.String,java.lang.String) -> postD
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String) -> a
+com.pm.window.tool.Parameter -> com.pm.window.tool.Parameter:
+    java.lang.String cache_apk -> cache_apk
+    java.lang.String cache -> cache
+    java.lang.String cache_file -> cache_file
+    java.lang.String cache_id -> cache_id
+    java.lang.String cache_data -> cache_data
+    int memory_alert -> memory_alert
+    boolean floal_icon -> floal_icon
+    boolean floal_of -> floal_of
+    java.lang.String SDKVERSION -> SDKVERSION
+    java.lang.String PKG -> PKG
+com.pm.window.tool.PmConfig -> com.pm.window.tool.PmConfig:
+    boolean openApp -> openApp
+com.pm.window.tool.Restool -> com.pm.window.tool.Restool:
+    android.content.Context a -> a
+    int getStringId(java.lang.String) -> getStringId
+    int getLayoutId(java.lang.String) -> getLayoutId
+    int getId(java.lang.String) -> getId
+    int getDrawableId(java.lang.String) -> getDrawableId
+    int getAnim(java.lang.String) -> getAnim
+com.pm.window.tool.Rms -> com.pm.window.tool.Rms:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.Boolean loadLeg(java.lang.String) -> loadLeg
+    void saveLeg(java.lang.String) -> saveLeg
+    void deleteUser(java.lang.String) -> deleteUser
+    int loadTimer() -> loadTimer
+    void saveTimer(int) -> saveTimer
+    void saveUser(java.lang.String,java.lang.String) -> saveUser
+    java.lang.String loadUser(java.lang.String) -> loadUser
+com.pm.window.tool.ToolUtil -> com.pm.window.tool.ToolUtil:
+    int a -> a
+    java.util.List b -> b
+    java.lang.String getSDPath() -> getSDPath
+    boolean isNet(android.content.Context) -> isNet
+    boolean isRootSystem() -> isRootSystem
+    android.graphics.Bitmap getBitmapFromSDCard(java.lang.String) -> getBitmapFromSDCard
+    android.graphics.Bitmap loadBitmapFromSDCard(java.lang.String) -> loadBitmapFromSDCard
+    void showTip(android.content.Context,java.lang.String) -> showTip
+    void showTip_Long(android.content.Context,java.lang.String) -> showTip_Long
+    void showTip(android.content.Context,int) -> showTip
+    int dip2px(android.content.Context,float) -> dip2px
+    java.io.File createSDDir(java.lang.String) -> createSDDir
+    java.lang.String getFileName(java.lang.String) -> getFileName
+    void DeleteFile(java.io.File) -> DeleteFile
+    void DeleteFile_tmp(java.io.File) -> DeleteFile_tmp
+    java.lang.String getTimeCurrent() -> getTimeCurrent
+    boolean isEmail(java.lang.String) -> isEmail
+    boolean isMIUI() -> isMIUI
+    boolean isFlyme() -> isFlyme
+    boolean getPackagename(java.lang.String,android.content.Context) -> getPackagename
+    boolean isappexists(java.lang.String) -> isappexists
+    boolean isdowning(int) -> isdowning
+    boolean isHome(android.content.Context) -> isHome
+    boolean a(java.lang.String,android.content.Context) -> a
+    java.util.List a(android.content.Context) -> a
+com.pm.window.tool.YuMd5 -> com.pm.window.tool.YuMd5:
+    char[] a -> a
+    java.lang.String a(byte[]) -> a
+    java.lang.String md5sum(java.lang.String) -> md5sum
+    java.lang.String stringToMD5(java.lang.String) -> stringToMD5
+com.pm.window.tool.a -> com.pm.window.tool.a:
+    com.pm.window.tool.Downloader a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.pm.window.tool.Downloader a(com.pm.window.tool.a) -> a
+com.pm.window.tool.b -> com.pm.window.tool.b:
+    com.pm.window.tool.a a -> a
+    void run() -> run
+com.pm.window.tool.c -> com.pm.window.tool.c:
+    com.pm.window.tool.Downloader a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    int d -> d
+    void run() -> run
+com.pm.window.tool.d -> com.pm.window.tool.d:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.pm.window.tool.e -> com.pm.window.tool.e:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.pm.window.tool.f -> com.pm.window.tool.f:
+    android.content.Context a -> a
+    int b -> b
+    void run() -> run
+com.pm.window.view.ContentActivity -> com.pm.window.view.ContentActivity:
+    android.content.Context a -> a
+    android.widget.ImageView b -> b
+    android.widget.ImageView c -> c
+    android.widget.Button d -> d
+    android.widget.Button e -> e
+    com.pm.window.tool.CellphoneInfo f -> f
+    com.pm.window.tool.Downloader g -> g
+    com.pm.window.tool.Rms h -> h
+    org.json.JSONObject i -> i
+    int j -> j
+    boolean isopen -> isopen
+    com.pm.window.view.ContentActivity contenac -> contenac
+    int k -> k
+    android.view.View$OnClickListener l -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStop() -> onStop
+    void onStart() -> onStart
+    org.json.JSONObject a() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    int a(com.pm.window.view.ContentActivity) -> a
+    android.widget.ImageView b(com.pm.window.view.ContentActivity) -> b
+    void c(com.pm.window.view.ContentActivity) -> c
+    android.widget.ImageView d(com.pm.window.view.ContentActivity) -> d
+    android.widget.Button e(com.pm.window.view.ContentActivity) -> e
+    android.widget.Button f(com.pm.window.view.ContentActivity) -> f
+    org.json.JSONObject g(com.pm.window.view.ContentActivity) -> g
+    com.pm.window.tool.Downloader h(com.pm.window.view.ContentActivity) -> h
+    org.json.JSONObject i(com.pm.window.view.ContentActivity) -> i
+com.pm.window.view.ExitAd -> com.pm.window.view.ExitAd:
+    android.app.Dialog a -> a
+    com.pm.window.view.ExitAd b -> b
+    org.json.JSONObject c -> c
+    com.pm.window.tool.Downloader d -> d
+    com.pm.window.tool.CellphoneInfo e -> e
+    android.content.Context f -> f
+    com.pm.window.listener.OnbackListener g -> g
+    int h -> h
+    android.widget.ImageView i -> i
+    android.widget.ImageView j -> j
+    android.widget.ImageView k -> k
+    android.widget.Button l -> l
+    android.widget.Button m -> m
+    android.widget.TextView n -> n
+    android.view.View$OnClickListener o -> o
+    com.pm.window.view.ExitAd getInstance() -> getInstance
+    void show(android.content.Context,com.pm.window.listener.OnbackListener,boolean,boolean) -> show
+    void setIcon(org.json.JSONObject) -> setIcon
+    void setJson(org.json.JSONObject) -> setJson
+    void close(android.content.Context) -> close
+    org.json.JSONObject b() -> b
+    android.widget.ImageView a(com.pm.window.view.ExitAd) -> a
+    void b(com.pm.window.view.ExitAd) -> b
+    android.widget.Button c(com.pm.window.view.ExitAd) -> c
+    android.widget.Button d(com.pm.window.view.ExitAd) -> d
+    android.widget.ImageView e(com.pm.window.view.ExitAd) -> e
+    android.app.Dialog a() -> a
+    com.pm.window.listener.OnbackListener f(com.pm.window.view.ExitAd) -> f
+    android.view.View$OnClickListener g(com.pm.window.view.ExitAd) -> g
+    org.json.JSONObject h(com.pm.window.view.ExitAd) -> h
+    android.widget.TextView i(com.pm.window.view.ExitAd) -> i
+    org.json.JSONObject j(com.pm.window.view.ExitAd) -> j
+    com.pm.window.tool.Downloader k(com.pm.window.view.ExitAd) -> k
+com.pm.window.view.MyWindowManager -> com.pm.window.view.MyWindowManager:
+    com.pm.window.view.WindowSmallView a -> a
+    android.view.WindowManager$LayoutParams b -> b
+    android.view.WindowManager c -> c
+    android.app.ActivityManager d -> d
+    android.view.View e -> e
+    com.pm.window.tool.CellphoneInfo f -> f
+    boolean g -> g
+    org.json.JSONObject h -> h
+    android.os.Handler i -> i
+    int wininner -> wininner
+    java.lang.String names -> names
+    boolean j -> j
+    org.json.JSONObject k -> k
+    char[] l -> l
+    void removeSmallWindow(android.content.Context) -> removeSmallWindow
+    void visibie(android.content.Context,java.lang.String,java.lang.String,int,com.pm.window.listener.Timerlistener) -> visibie
+    void showOpne(android.content.Context) -> showOpne
+    void showExitad(android.content.Context,com.pm.window.listener.OnbackListener,boolean) -> showExitad
+    void showClose(android.content.Context) -> showClose
+    void gone(android.content.Context) -> gone
+    void updateUsedPercent(android.content.Context) -> updateUsedPercent
+    boolean isWindowShowing() -> isWindowShowing
+    android.view.WindowManager b(android.content.Context) -> b
+    java.lang.String getUsedPercentValue(android.content.Context) -> getUsedPercentValue
+    org.json.JSONObject b(android.content.Context,java.lang.String,java.lang.String) -> b
+    org.json.JSONObject b(android.content.Context,int) -> b
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String b(java.lang.String) -> b
+    void a(boolean) -> a
+    org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String) -> a
+    void a(org.json.JSONObject) -> a
+    org.json.JSONObject a() -> a
+    android.os.Handler b() -> b
+    com.pm.window.view.WindowSmallView c() -> c
+    void a(android.content.Context) -> a
+    void b(boolean) -> b
+    org.json.JSONObject a(android.content.Context,int) -> a
+    void b(org.json.JSONObject) -> b
+    org.json.JSONObject d() -> d
+com.pm.window.view.ProgressBarView -> com.pm.window.view.ProgressBarView:
+    int a -> a
+    int b -> b
+    int c -> c
+    android.graphics.RectF d -> d
+    android.graphics.Paint e -> e
+    void setProgress(int) -> setProgress
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.pm.window.view.WindowSmallView -> com.pm.window.view.WindowSmallView:
+    int viewWidth -> viewWidth
+    int viewHeight -> viewHeight
+    android.view.WindowManager$LayoutParams mParams -> mParams
+    android.content.Context a -> a
+    org.json.JSONObject b -> b
+    android.widget.ImageView c -> c
+    android.widget.ImageView d -> d
+    android.os.Handler e -> e
+    com.pm.window.tool.Rms f -> f
+    boolean icon_change -> icon_change
+    com.pm.window.tool.Downloader g -> g
+    com.pm.window.tool.CellphoneInfo h -> h
+    android.view.View$OnClickListener i -> i
+    java.lang.Runnable j -> j
+    void update_icon(org.json.JSONObject) -> update_icon
+    boolean rangeInDefined(java.lang.Float,java.lang.Float,java.lang.Float) -> rangeInDefined
+    void setParams(android.view.WindowManager$LayoutParams) -> setParams
+    org.json.JSONObject a() -> a
+    android.widget.ImageView a(com.pm.window.view.WindowSmallView) -> a
+    void b(com.pm.window.view.WindowSmallView) -> b
+    android.widget.ImageView c(com.pm.window.view.WindowSmallView) -> c
+    android.content.Context d(com.pm.window.view.WindowSmallView) -> d
+    org.json.JSONObject e(com.pm.window.view.WindowSmallView) -> e
+    org.json.JSONObject f(com.pm.window.view.WindowSmallView) -> f
+    com.pm.window.tool.Downloader g(com.pm.window.view.WindowSmallView) -> g
+com.pm.window.view.a -> com.pm.window.view.a:
+    com.pm.window.view.ContentActivity a -> a
+    void onClick(android.view.View) -> onClick
+com.pm.window.view.b -> com.pm.window.view.b:
+    com.pm.window.view.ContentActivity a -> a
+    void run() -> run
+com.pm.window.view.c -> com.pm.window.view.c:
+    com.pm.window.view.ExitAd a -> a
+    void onClick(android.view.View) -> onClick
+com.pm.window.view.d -> com.pm.window.view.d:
+    com.pm.window.view.ExitAd a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.pm.window.view.e -> com.pm.window.view.e:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.pm.window.view.f -> com.pm.window.view.f:
+    com.pm.window.view.ExitAd a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.pm.window.view.g -> com.pm.window.view.g:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.pm.window.view.h -> com.pm.window.view.h:
+    com.pm.window.view.ExitAd a -> a
+    void run() -> run
+com.pm.window.view.i -> com.pm.window.view.i:
+    com.pm.window.view.ExitAd a -> a
+    void run() -> run
+com.pm.window.view.j -> com.pm.window.view.j:
+    com.pm.window.view.ExitAd a -> a
+    void run() -> run
+com.pm.window.view.k -> com.pm.window.view.k:
+    int a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    com.pm.window.listener.Timerlistener e -> e
+    void run() -> run
+com.pm.window.view.l -> com.pm.window.view.l:
+    android.content.Context a -> a
+    com.pm.window.listener.Timerlistener b -> b
+    void run() -> run
+com.pm.window.view.m -> com.pm.window.view.m:
+    android.content.Context a -> a
+    void run() -> run
+com.pm.window.view.n -> com.pm.window.view.n:
+    void onConnectionEndListener() -> onConnectionEndListener
+com.pm.window.view.o -> com.pm.window.view.o:
+    android.content.Context a -> a
+    void run() -> run
+com.pm.window.view.p -> com.pm.window.view.p:
+    android.content.Context a -> a
+    void run() -> run
+com.pm.window.view.q -> com.pm.window.view.q:
+    void onConnectionEndListener() -> onConnectionEndListener
+com.pm.window.view.r -> com.pm.window.view.r:
+    android.content.Context a -> a
+    com.pm.window.listener.OnbackListener b -> b
+    boolean c -> c
+    void run() -> run
+com.pm.window.view.s -> com.pm.window.view.s:
+    android.content.Context a -> a
+    void run() -> run
+com.pm.window.view.t -> com.pm.window.view.t:
+    com.pm.window.view.WindowSmallView a -> a
+    void onClick(android.view.View) -> onClick
+com.pm.window.view.u -> com.pm.window.view.u:
+    com.pm.window.view.WindowSmallView a -> a
+    void run() -> run
+com.pm.window.view.v -> com.pm.window.view.v:
+    com.pm.window.view.WindowSmallView a -> a
+    void run() -> run
+org.ksoap2.HeaderProperty -> org.a.a:
+    java.lang.String key -> a
+    java.lang.String value -> b
+    java.lang.String getKey() -> a
+    java.lang.String getValue() -> b
+org.ksoap2.SoapEnvelope -> org.a.b:
+    java.lang.Object bodyIn -> a
+    java.lang.Object bodyOut -> b
+    org.kxml2.kdom.Element[] headerIn -> c
+    org.kxml2.kdom.Element[] headerOut -> d
+    java.lang.String encodingStyle -> e
+    int version -> f
+    java.lang.String env -> g
+    java.lang.String enc -> h
+    java.lang.String xsi -> i
+    java.lang.String xsd -> j
+    boolean stringToBoolean(java.lang.String) -> a
+    void parse(org.xmlpull.v1.XmlPullParser) -> a
+    void parseBody(org.xmlpull.v1.XmlPullParser) -> b
+    void write(org.xmlpull.v1.XmlSerializer) -> a
+    void writeBody(org.xmlpull.v1.XmlSerializer) -> b
+org.ksoap2.SoapFault -> org.a.c:
+    java.lang.String faultcode -> a
+    java.lang.String faultstring -> b
+    java.lang.String faultactor -> c
+    org.kxml2.kdom.Node detail -> d
+    int version -> e
+    void parse(org.xmlpull.v1.XmlPullParser) -> a
+    java.lang.String getMessage() -> getMessage
+    java.lang.String toString() -> toString
+org.ksoap2.SoapFault12 -> org.a.d:
+    org.kxml2.kdom.Node Code -> f
+    org.kxml2.kdom.Node Reason -> g
+    org.kxml2.kdom.Node Node -> h
+    org.kxml2.kdom.Node Role -> i
+    org.kxml2.kdom.Node Detail -> j
+    void parse(org.xmlpull.v1.XmlPullParser) -> a
+    java.lang.String getMessage() -> getMessage
+    java.lang.String toString() -> toString
+org.ksoap2.serialization.AttributeContainer -> org.a.a.a:
+    java.util.Vector attributes -> a
+    void getAttributeInfo(int,org.ksoap2.serialization.AttributeInfo) -> a
+    java.lang.Integer attributeIndex(java.lang.String) -> a
+    int getAttributeCount() -> a
+    boolean attributesAreEqual(org.ksoap2.serialization.AttributeContainer) -> a
+    void addAttribute(java.lang.String,java.lang.Object) -> a
+    void addAttribute(org.ksoap2.serialization.AttributeInfo) -> a
+org.ksoap2.serialization.AttributeInfo -> org.a.a.b:
+org.ksoap2.serialization.DM -> org.a.a.c:
+    java.lang.Object readInstance$483bc6ce(org.xmlpull.v1.XmlPullParser,java.lang.String) -> a
+    void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object) -> a
+    void register(org.ksoap2.serialization.SoapSerializationEnvelope) -> a
+org.ksoap2.serialization.FwdRef -> org.a.a.d:
+    org.ksoap2.serialization.FwdRef next -> a
+    java.lang.Object obj -> b
+    int index -> c
+org.ksoap2.serialization.HasAttributes -> org.a.a.e:
+    int getAttributeCount() -> a
+    void getAttributeInfo(int,org.ksoap2.serialization.AttributeInfo) -> a
+org.ksoap2.serialization.KvmSerializable -> org.a.a.f:
+    java.lang.Object getProperty(int) -> a
+    int getPropertyCount() -> a_
+    void setProperty(int,java.lang.Object) -> a
+    void getPropertyInfo$70db41a4(int,org.ksoap2.serialization.PropertyInfo) -> a
+org.ksoap2.serialization.Marshal -> org.a.a.g:
+    java.lang.Object readInstance$483bc6ce(org.xmlpull.v1.XmlPullParser,java.lang.String) -> a
+    void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object) -> a
+    void register(org.ksoap2.serialization.SoapSerializationEnvelope) -> a
+org.ksoap2.serialization.PropertyInfo -> org.a.a.h:
+    java.lang.Class OBJECT_CLASS -> a
+    java.lang.Class STRING_CLASS -> b
+    java.lang.Class INTEGER_CLASS -> c
+    java.lang.Class LONG_CLASS -> d
+    java.lang.Class BOOLEAN_CLASS -> e
+    java.lang.Class VECTOR_CLASS -> f
+    org.ksoap2.serialization.PropertyInfo OBJECT_TYPE -> g
+    java.lang.String name -> h
+    java.lang.String namespace -> i
+    int flags -> j
+    java.lang.Object value -> k
+    java.lang.Object type -> l
+    boolean multiRef -> m
+    org.ksoap2.serialization.PropertyInfo elementType -> n
+    void clear() -> a
+    java.lang.String getName() -> b
+    void setName(java.lang.String) -> a
+    java.lang.String getNamespace() -> c
+    void setNamespace(java.lang.String) -> b
+    void setType(java.lang.Object) -> a
+    java.lang.Object getValue() -> d
+    void setValue(java.lang.Object) -> b
+    java.lang.String toString() -> toString
+    java.lang.Object clone() -> clone
+org.ksoap2.serialization.SoapObject -> org.a.a.i:
+    java.lang.String namespace -> b
+    java.lang.String name -> c
+    java.util.Vector properties -> d
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String getName() -> b
+    java.lang.String getNamespace() -> c
+    java.lang.Object getProperty(int) -> a
+    int getPropertyCount() -> a_
+    void getPropertyInfo$70db41a4(int,org.ksoap2.serialization.PropertyInfo) -> a
+    org.ksoap2.serialization.SoapObject newInstance() -> d
+    void setProperty(int,java.lang.Object) -> a
+    org.ksoap2.serialization.SoapObject addProperty(java.lang.String,java.lang.Object) -> b
+    org.ksoap2.serialization.SoapObject addProperty(org.ksoap2.serialization.PropertyInfo) -> a
+    java.lang.String toString() -> toString
+org.ksoap2.serialization.SoapPrimitive -> org.a.a.j:
+    java.lang.String namespace -> b
+    java.lang.String name -> c
+    java.lang.Object value -> d
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.lang.String getNamespace() -> b
+    java.lang.String getName() -> c
+org.ksoap2.serialization.SoapSerializationEnvelope -> org.a.a.k:
+    org.ksoap2.serialization.Marshal DEFAULT_MARSHAL -> k
+    java.util.Hashtable properties -> l
+    java.util.Hashtable idMap -> m
+    java.util.Vector multiRef -> n
+    boolean implicitTypes -> o
+    boolean skipNullProperties -> p
+    boolean dotNet -> q
+    boolean avoidExceptionForUnknownProperty -> r
+    java.util.Hashtable qNameToClass -> s
+    java.util.Hashtable classToQName -> t
+    boolean addAdornments -> u
+    java.lang.Class class$org$ksoap2$serialization$SoapObject -> v
+    void parseBody(org.xmlpull.v1.XmlPullParser) -> b
+    void readSerializable(org.xmlpull.v1.XmlPullParser,org.ksoap2.serialization.SoapObject) -> a
+    void readSerializable(org.xmlpull.v1.XmlPullParser,org.ksoap2.serialization.KvmSerializable) -> a
+    java.lang.Object readUnknown(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String) -> a
+    int getIndex(java.lang.String,int,int) -> a
+    void readVector(org.xmlpull.v1.XmlPullParser,java.util.Vector,org.ksoap2.serialization.PropertyInfo) -> a
+    java.lang.Object read(org.xmlpull.v1.XmlPullParser,java.lang.Object,int,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo) -> a
+    java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo) -> a
+    java.lang.Object[] getInfo(java.lang.Object,java.lang.Object) -> a
+    void addMapping(java.lang.String,java.lang.String,java.lang.Class,org.ksoap2.serialization.Marshal) -> a
+    java.lang.Object getResponse() -> a
+    void writeBody(org.xmlpull.v1.XmlSerializer) -> b
+    void writeObjectBodyWithAttributes(org.xmlpull.v1.XmlSerializer,org.ksoap2.serialization.KvmSerializable) -> a
+    void writeProperty(org.xmlpull.v1.XmlSerializer,java.lang.Object,org.ksoap2.serialization.PropertyInfo) -> a
+    void writeElement(org.xmlpull.v1.XmlSerializer,java.lang.Object,org.ksoap2.serialization.PropertyInfo,java.lang.Object) -> a
+    java.lang.Class class$(java.lang.String) -> b
+org.ksoap2.transport.HttpResponseException -> org.a.b.a:
+    int statusCode -> a
+org.ksoap2.transport.HttpTransportSE -> org.a.b.b:
+    java.util.List call$267cefc9(java.lang.String,org.ksoap2.SoapEnvelope) -> a
+    java.util.List call$14721a20$267cefc9(java.lang.String,org.ksoap2.SoapEnvelope) -> b
+    java.io.InputStream readDebug$257ae23f(java.io.InputStream,int) -> a
+    java.io.InputStream getUnZippedInputStream(java.io.InputStream) -> a
+org.ksoap2.transport.ServiceConnection -> org.a.b.c:
+    void disconnect() -> a
+    java.util.List getResponseProperties() -> b
+    int getResponseCode() -> c
+    void setRequestProperty(java.lang.String,java.lang.String) -> a
+    void setRequestMethod(java.lang.String) -> a
+    void setFixedLengthStreamingMode(int) -> a
+    java.io.OutputStream openOutputStream() -> d
+    java.io.InputStream openInputStream() -> e
+    java.io.InputStream getErrorStream() -> f
+org.ksoap2.transport.ServiceConnectionSE -> org.a.b.d:
+    java.net.HttpURLConnection connection -> a
+    void disconnect() -> a
+    java.util.List getResponseProperties() -> b
+    int getResponseCode() -> c
+    void setRequestProperty(java.lang.String,java.lang.String) -> a
+    void setRequestMethod(java.lang.String) -> a
+    void setFixedLengthStreamingMode(int) -> a
+    java.io.OutputStream openOutputStream() -> d
+    java.io.InputStream openInputStream() -> e
+    java.io.InputStream getErrorStream() -> f
+org.ksoap2.transport.Transport -> org.a.b.e:
+    java.net.Proxy proxy -> a
+    java.lang.String url -> b
+    int timeout -> c
+    boolean debug -> d
+    java.lang.String requestDump -> e
+    java.lang.String responseDump -> f
+    java.lang.String xmlVersionTag -> g
+    int bufferLength -> h
+    byte[] createRequestData(org.ksoap2.SoapEnvelope,java.lang.String) -> a
+org.kxml2.io.KXmlParser -> org.b.a.a:
+    java.lang.Object location -> a
+    java.lang.String version -> b
+    java.lang.Boolean standalone -> c
+    boolean processNsp -> d
+    boolean relaxed -> e
+    java.util.Hashtable entityMap -> f
+    int depth -> g
+    java.lang.String[] elementStack -> h
+    java.lang.String[] nspStack -> i
+    int[] nspCounts -> j
+    java.io.Reader reader -> k
+    java.lang.String encoding -> l
+    char[] srcBuf -> m
+    int srcPos -> n
+    int srcCount -> o
+    int line -> p
+    int column -> q
+    char[] txtBuf -> r
+    int txtPos -> s
+    int type -> t
+    boolean isWhitespace -> u
+    java.lang.String namespace -> v
+    java.lang.String prefix -> w
+    java.lang.String name -> x
+    boolean degenerated -> y
+    int attributeCount -> z
+    java.lang.String[] attributes -> A
+    java.lang.String error -> B
+    int[] peek -> C
+    int peekCount -> D
+    boolean wasCR -> E
+    boolean unresolved -> F
+    boolean token -> G
+    boolean isProp(java.lang.String,boolean,java.lang.String) -> a
+    boolean adjustNsp() -> a
+    java.lang.String[] ensureCapacity(java.lang.String[],int) -> a
+    void error(java.lang.String) -> a
+    void exception(java.lang.String) -> b
+    void nextImpl() -> b
+    int parseLegacy(boolean) -> a
+    void parseDoctype(boolean) -> b
+    int peekType() -> c
+    java.lang.String get(int) -> a
+    void push(int) -> b
+    void parseStartTag(boolean) -> c
+    void pushEntity() -> d
+    void pushText(int,boolean) -> a
+    void read(char) -> a
+    int read() -> e
+    int peek(int) -> c
+    java.lang.String readName() -> f
+    void skip() -> g
+    void setInput(java.io.Reader) -> setInput
+    void setInput(java.io.InputStream,java.lang.String) -> setInput
+    boolean getFeature(java.lang.String) -> getFeature
+    java.lang.String getInputEncoding() -> getInputEncoding
+    void defineEntityReplacementText(java.lang.String,java.lang.String) -> defineEntityReplacementText
+    java.lang.Object getProperty(java.lang.String) -> getProperty
+    int getNamespaceCount(int) -> getNamespaceCount
+    java.lang.String getNamespacePrefix(int) -> getNamespacePrefix
+    java.lang.String getNamespaceUri(int) -> getNamespaceUri
+    java.lang.String getNamespace(java.lang.String) -> getNamespace
+    int getDepth() -> getDepth
+    java.lang.String getPositionDescription() -> getPositionDescription
+    int getLineNumber() -> getLineNumber
+    int getColumnNumber() -> getColumnNumber
+    boolean isWhitespace() -> isWhitespace
+    java.lang.String getText() -> getText
+    char[] getTextCharacters(int[]) -> getTextCharacters
+    java.lang.String getNamespace() -> getNamespace
+    java.lang.String getName() -> getName
+    java.lang.String getPrefix() -> getPrefix
+    boolean isEmptyElementTag() -> isEmptyElementTag
+    int getAttributeCount() -> getAttributeCount
+    java.lang.String getAttributeType(int) -> getAttributeType
+    boolean isAttributeDefault(int) -> isAttributeDefault
+    java.lang.String getAttributeNamespace(int) -> getAttributeNamespace
+    java.lang.String getAttributeName(int) -> getAttributeName
+    java.lang.String getAttributePrefix(int) -> getAttributePrefix
+    java.lang.String getAttributeValue(int) -> getAttributeValue
+    java.lang.String getAttributeValue(java.lang.String,java.lang.String) -> getAttributeValue
+    int getEventType() -> getEventType
+    int next() -> next
+    int nextToken() -> nextToken
+    int nextTag() -> nextTag
+    void require(int,java.lang.String,java.lang.String) -> require
+    java.lang.String nextText() -> nextText
+    void setFeature(java.lang.String,boolean) -> setFeature
+    void setProperty(java.lang.String,java.lang.Object) -> setProperty
+org.kxml2.io.KXmlSerializer -> org.b.a.b:
+    java.io.Writer writer -> a
+    boolean pending -> b
+    int auto -> c
+    int depth -> d
+    java.lang.String[] elementStack -> e
+    int[] nspCounts -> f
+    java.lang.String[] nspStack -> g
+    boolean[] indent -> h
+    boolean unicode -> i
+    java.lang.String encoding -> j
+    void check(boolean) -> a
+    void writeEscaped(java.lang.String,int) -> a
+    void docdecl(java.lang.String) -> docdecl
+    void endDocument() -> endDocument
+    void entityRef(java.lang.String) -> entityRef
+    boolean getFeature(java.lang.String) -> getFeature
+    java.lang.String getPrefix(java.lang.String,boolean) -> getPrefix
+    java.lang.String getPrefix(java.lang.String,boolean,boolean) -> a
+    java.lang.Object getProperty(java.lang.String) -> getProperty
+    void ignorableWhitespace(java.lang.String) -> ignorableWhitespace
+    void setFeature(java.lang.String,boolean) -> setFeature
+    void setProperty(java.lang.String,java.lang.Object) -> setProperty
+    void setPrefix(java.lang.String,java.lang.String) -> setPrefix
+    void setOutput(java.io.Writer) -> setOutput
+    void setOutput(java.io.OutputStream,java.lang.String) -> setOutput
+    void startDocument(java.lang.String,java.lang.Boolean) -> startDocument
+    org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String) -> startTag
+    org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String) -> attribute
+    void flush() -> flush
+    org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String) -> endTag
+    java.lang.String getNamespace() -> getNamespace
+    java.lang.String getName() -> getName
+    int getDepth() -> getDepth
+    org.xmlpull.v1.XmlSerializer text(java.lang.String) -> text
+    org.xmlpull.v1.XmlSerializer text(char[],int,int) -> text
+    void cdsect(java.lang.String) -> cdsect
+    void comment(java.lang.String) -> comment
+    void processingInstruction(java.lang.String) -> processingInstruction
+org.kxml2.kdom.Element -> org.b.b.a:
+    java.lang.String namespace -> a
+    java.lang.String name -> b
+    java.util.Vector attributes -> c
+    org.kxml2.kdom.Node parent -> d
+    java.util.Vector prefixes -> e
+    org.kxml2.kdom.Element createElement(java.lang.String,java.lang.String) -> a
+    java.lang.String getName() -> a
+    java.lang.String getNamespace() -> b
+    void parse(org.xmlpull.v1.XmlPullParser) -> a
+    void setAttribute(java.lang.String,java.lang.String,java.lang.String) -> a
+    void setParent(org.kxml2.kdom.Node) -> a
+    void write(org.xmlpull.v1.XmlSerializer) -> a
+org.kxml2.kdom.Node -> org.b.b.b:
+    java.util.Vector children -> f
+    java.lang.StringBuffer types -> g
+    void addChild(int,java.lang.Object) -> a
+    org.kxml2.kdom.Element createElement(java.lang.String,java.lang.String) -> a
+    java.lang.Object getChild(int) -> b
+    int getChildCount() -> c
+    org.kxml2.kdom.Element getElement(int) -> a
+    org.kxml2.kdom.Element getElement(java.lang.String,java.lang.String) -> b
+    java.lang.String getText$47921032() -> d
+    int getType(int) -> c
+    int indexOf(java.lang.String,java.lang.String,int) -> a
+    void parse(org.xmlpull.v1.XmlPullParser) -> a
+    void write(org.xmlpull.v1.XmlSerializer) -> a
+    void writeChildren(org.xmlpull.v1.XmlSerializer) -> b
+org.xmlpull.v1.XmlPullParser -> org.xmlpull.v1.XmlPullParser:
+    java.lang.String NO_NAMESPACE -> NO_NAMESPACE
+    int START_DOCUMENT -> START_DOCUMENT
+    int END_DOCUMENT -> END_DOCUMENT
+    int START_TAG -> START_TAG
+    int END_TAG -> END_TAG
+    int TEXT -> TEXT
+    int CDSECT -> CDSECT
+    int ENTITY_REF -> ENTITY_REF
+    int IGNORABLE_WHITESPACE -> IGNORABLE_WHITESPACE
+    int PROCESSING_INSTRUCTION -> PROCESSING_INSTRUCTION
+    int COMMENT -> COMMENT
+    int DOCDECL -> DOCDECL
+    java.lang.String[] TYPES -> TYPES
+    java.lang.String FEATURE_PROCESS_NAMESPACES -> FEATURE_PROCESS_NAMESPACES
+    java.lang.String FEATURE_REPORT_NAMESPACE_ATTRIBUTES -> FEATURE_REPORT_NAMESPACE_ATTRIBUTES
+    java.lang.String FEATURE_PROCESS_DOCDECL -> FEATURE_PROCESS_DOCDECL
+    java.lang.String FEATURE_VALIDATION -> FEATURE_VALIDATION
+    void setFeature(java.lang.String,boolean) -> setFeature
+    boolean getFeature(java.lang.String) -> getFeature
+    void setProperty(java.lang.String,java.lang.Object) -> setProperty
+    java.lang.Object getProperty(java.lang.String) -> getProperty
+    void setInput(java.io.Reader) -> setInput
+    void setInput(java.io.InputStream,java.lang.String) -> setInput
+    java.lang.String getInputEncoding() -> getInputEncoding
+    void defineEntityReplacementText(java.lang.String,java.lang.String) -> defineEntityReplacementText
+    int getNamespaceCount(int) -> getNamespaceCount
+    java.lang.String getNamespacePrefix(int) -> getNamespacePrefix
+    java.lang.String getNamespaceUri(int) -> getNamespaceUri
+    java.lang.String getNamespace(java.lang.String) -> getNamespace
+    int getDepth() -> getDepth
+    java.lang.String getPositionDescription() -> getPositionDescription
+    int getLineNumber() -> getLineNumber
+    int getColumnNumber() -> getColumnNumber
+    boolean isWhitespace() -> isWhitespace
+    java.lang.String getText() -> getText
+    char[] getTextCharacters(int[]) -> getTextCharacters
+    java.lang.String getNamespace() -> getNamespace
+    java.lang.String getName() -> getName
+    java.lang.String getPrefix() -> getPrefix
+    boolean isEmptyElementTag() -> isEmptyElementTag
+    int getAttributeCount() -> getAttributeCount
+    java.lang.String getAttributeNamespace(int) -> getAttributeNamespace
+    java.lang.String getAttributeName(int) -> getAttributeName
+    java.lang.String getAttributePrefix(int) -> getAttributePrefix
+    java.lang.String getAttributeType(int) -> getAttributeType
+    boolean isAttributeDefault(int) -> isAttributeDefault
+    java.lang.String getAttributeValue(int) -> getAttributeValue
+    java.lang.String getAttributeValue(java.lang.String,java.lang.String) -> getAttributeValue
+    int getEventType() -> getEventType
+    int next() -> next
+    int nextToken() -> nextToken
+    void require(int,java.lang.String,java.lang.String) -> require
+    java.lang.String nextText() -> nextText
+    int nextTag() -> nextTag
+org.xmlpull.v1.XmlPullParserException -> org.xmlpull.v1.XmlPullParserException:
+    java.lang.Throwable detail -> detail
+    int row -> row
+    int column -> column
+    java.lang.Throwable getDetail() -> getDetail
+    int getLineNumber() -> getLineNumber
+    int getColumnNumber() -> getColumnNumber
+    void printStackTrace() -> printStackTrace
+org.xmlpull.v1.XmlPullParserFactory -> org.xmlpull.v1.XmlPullParserFactory:
+    java.lang.Class referenceContextClass -> referenceContextClass
+    java.lang.String PROPERTY_NAME -> PROPERTY_NAME
+    java.lang.String RESOURCE_NAME -> RESOURCE_NAME
+    java.util.Vector parserClasses -> parserClasses
+    java.lang.String classNamesLocation -> classNamesLocation
+    java.util.Vector serializerClasses -> serializerClasses
+    java.util.Hashtable features -> features
+    void setFeature(java.lang.String,boolean) -> setFeature
+    boolean getFeature(java.lang.String) -> getFeature
+    void setNamespaceAware(boolean) -> setNamespaceAware
+    boolean isNamespaceAware() -> isNamespaceAware
+    void setValidating(boolean) -> setValidating
+    boolean isValidating() -> isValidating
+    org.xmlpull.v1.XmlPullParser newPullParser() -> newPullParser
+    org.xmlpull.v1.XmlSerializer newSerializer() -> newSerializer
+    org.xmlpull.v1.XmlPullParserFactory newInstance() -> newInstance
+    org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String,java.lang.Class) -> newInstance
+org.xmlpull.v1.XmlSerializer -> org.xmlpull.v1.XmlSerializer:
+    void setFeature(java.lang.String,boolean) -> setFeature
+    boolean getFeature(java.lang.String) -> getFeature
+    void setProperty(java.lang.String,java.lang.Object) -> setProperty
+    java.lang.Object getProperty(java.lang.String) -> getProperty
+    void setOutput(java.io.OutputStream,java.lang.String) -> setOutput
+    void setOutput(java.io.Writer) -> setOutput
+    void startDocument(java.lang.String,java.lang.Boolean) -> startDocument
+    void endDocument() -> endDocument
+    void setPrefix(java.lang.String,java.lang.String) -> setPrefix
+    java.lang.String getPrefix(java.lang.String,boolean) -> getPrefix
+    int getDepth() -> getDepth
+    java.lang.String getNamespace() -> getNamespace
+    java.lang.String getName() -> getName
+    org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String) -> startTag
+    org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String) -> attribute
+    org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String) -> endTag
+    org.xmlpull.v1.XmlSerializer text(java.lang.String) -> text
+    org.xmlpull.v1.XmlSerializer text(char[],int,int) -> text
+    void cdsect(java.lang.String) -> cdsect
+    void entityRef(java.lang.String) -> entityRef
+    void processingInstruction(java.lang.String) -> processingInstruction
+    void comment(java.lang.String) -> comment
+    void docdecl(java.lang.String) -> docdecl
+    void ignorableWhitespace(java.lang.String) -> ignorableWhitespace
+    void flush() -> flush

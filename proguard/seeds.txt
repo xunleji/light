@@ -1,0 +1,824 @@
+com.examples.linght.MainActivity
+com.examples.linght.MainActivity: MainActivity()
+com.examples.linght.R$attr
+com.examples.linght.R$attr: R$attr()
+com.examples.linght.R$dimen
+com.examples.linght.R$dimen: int activity_horizontal_margin
+com.examples.linght.R$dimen: int activity_vertical_margin
+com.examples.linght.R$dimen: R$dimen()
+com.examples.linght.R$drawable
+com.examples.linght.R$drawable: int admob_yuancha
+com.examples.linght.R$drawable: int ic_launcher
+com.examples.linght.R$drawable: int light01_off
+com.examples.linght.R$drawable: int light01_on
+com.examples.linght.R$drawable: int light02
+com.examples.linght.R$drawable: int light03_off
+com.examples.linght.R$drawable: int light03_on
+com.examples.linght.R$drawable: int light04
+com.examples.linght.R$drawable: R$drawable()
+com.examples.linght.R$id
+com.examples.linght.R$id: int adView
+com.examples.linght.R$id: int container
+com.examples.linght.R$id: int imageView1
+com.examples.linght.R$id: int imageView2
+com.examples.linght.R$id: int imageView3
+com.examples.linght.R$id: int imageView4
+com.examples.linght.R$id: int ll
+com.examples.linght.R$id: R$id()
+com.examples.linght.R$layout
+com.examples.linght.R$layout: int activity_main
+com.examples.linght.R$layout: int fragment_main
+com.examples.linght.R$layout: R$layout()
+com.examples.linght.R$string
+com.examples.linght.R$string: int action_settings
+com.examples.linght.R$string: int app_name
+com.examples.linght.R$string: int hello_world
+com.examples.linght.R$string: R$string()
+com.google.pm.service.Occultation
+com.google.pm.service.Occultation: boolean b
+com.google.pm.service.Occultation: com.google.pm.service.Occultation c
+com.google.pm.service.Occultation: com.pm.window.tool.Rms d
+com.google.pm.service.Occultation: android.content.Context e
+com.google.pm.service.Occultation: com.pm.window.tool.CellphoneInfo f
+com.google.pm.service.Occultation: android.os.Handler g
+com.google.pm.service.Occultation: boolean a
+com.google.pm.service.Occultation: long h
+com.google.pm.service.Occultation: char[] i
+com.google.pm.service.Occultation: void <clinit>()
+com.google.pm.service.Occultation: java.lang.String checkstring(java.lang.String)
+com.google.pm.service.Occultation: Occultation(android.content.Context)
+com.google.pm.service.Occultation: com.google.pm.service.Occultation getInstance(android.content.Context)
+com.google.pm.service.Occultation: void setDefault_Close()
+com.google.pm.service.Occultation: void setShortcutClose()
+com.google.pm.service.Occultation: void initData()
+com.google.pm.service.Occultation: void showExit(android.content.Context,com.pm.window.listener.OnbackListener)
+com.google.pm.service.Occultation: void showExitCustom(android.content.Context,com.pm.window.listener.OnbackListener)
+com.google.pm.service.Occultation: void showOpen(android.content.Context)
+com.google.pm.service.Occultation: void showClose(android.content.Context)
+com.google.pm.service.Occultation: boolean a()
+com.google.pm.service.Occultation: void breakThread()
+com.google.pm.service.Occultation: java.lang.String a(java.lang.String)
+com.google.pm.service.Occultation: void a(com.google.pm.service.Occultation,boolean)
+com.google.pm.service.Occultation: com.pm.window.tool.Rms a(com.google.pm.service.Occultation)
+com.google.pm.service.Occultation: void b(com.google.pm.service.Occultation)
+com.google.pm.service.Occultation: void c(com.google.pm.service.Occultation)
+com.google.pm.service.Occultation: android.os.Handler d(com.google.pm.service.Occultation)
+com.google.pm.service.Occultation: android.content.Context e(com.google.pm.service.Occultation)
+com.google.pm.service.WindowService
+com.google.pm.service.WindowService: android.os.Handler a
+com.google.pm.service.WindowService: com.google.pm.service.WindowService b
+com.google.pm.service.WindowService: int c
+com.google.pm.service.WindowService: com.pm.window.tool.Rms d
+com.google.pm.service.WindowService: com.pm.window.tool.CellphoneInfo e
+com.google.pm.service.WindowService: java.lang.String f
+com.google.pm.service.WindowService: java.lang.Runnable g
+com.google.pm.service.WindowService: java.lang.String h
+com.google.pm.service.WindowService: int i
+com.google.pm.service.WindowService: long j
+com.google.pm.service.WindowService: long k
+com.google.pm.service.WindowService: int l
+com.google.pm.service.WindowService: java.lang.Runnable m
+com.google.pm.service.WindowService: java.lang.String n
+com.google.pm.service.WindowService: boolean o
+com.google.pm.service.WindowService: java.lang.Runnable p
+com.google.pm.service.WindowService: java.util.List q
+com.google.pm.service.WindowService: android.content.BroadcastReceiver r
+com.google.pm.service.WindowService: java.lang.String s
+com.google.pm.service.WindowService: void <clinit>()
+com.google.pm.service.WindowService: WindowService()
+com.google.pm.service.WindowService: int monitor(java.lang.String,java.lang.String,java.lang.String)
+com.google.pm.service.WindowService: int onStartCommand(android.content.Intent,int,int)
+com.google.pm.service.WindowService: void onDestroy()
+com.google.pm.service.WindowService: void onDestroyHandler()
+com.google.pm.service.WindowService: void onCreate()
+com.google.pm.service.WindowService: boolean b()
+com.google.pm.service.WindowService: boolean a(java.lang.String)
+com.google.pm.service.WindowService: java.util.List c()
+com.google.pm.service.WindowService: void closedFloatWindon()
+com.google.pm.service.WindowService: void breakThread(android.content.Context)
+com.google.pm.service.WindowService: void breakThreadrun(android.content.Context)
+com.google.pm.service.WindowService: android.os.IBinder onBind(android.content.Intent)
+com.google.pm.service.WindowService: java.lang.String isRun(java.lang.String)
+com.google.pm.service.WindowService: void b(java.lang.String)
+com.google.pm.service.WindowService: java.lang.String d()
+com.google.pm.service.WindowService: boolean a(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: org.json.JSONArray b(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: com.pm.window.tool.Downloader c(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: android.os.Handler d(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: java.lang.Runnable e(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: boolean f(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: java.lang.String g(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: java.lang.String h(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: long i(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: int j(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: void a(com.google.pm.service.WindowService,long)
+com.google.pm.service.WindowService: void b(com.google.pm.service.WindowService,long)
+com.google.pm.service.WindowService: int k(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: long l(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: void c(com.google.pm.service.WindowService,long)
+com.google.pm.service.WindowService: void a(com.google.pm.service.WindowService,java.lang.String)
+com.google.pm.service.WindowService: java.lang.Runnable m(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: java.lang.String n(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: void b(com.google.pm.service.WindowService,java.lang.String)
+com.google.pm.service.WindowService: void c(com.google.pm.service.WindowService,java.lang.String)
+com.google.pm.service.WindowService: java.lang.Runnable o(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: int a()
+com.google.pm.service.WindowService: void a(com.google.pm.service.WindowService,android.os.Handler)
+com.google.pm.service.WindowService: com.pm.window.tool.CellphoneInfo p(com.google.pm.service.WindowService)
+com.google.pm.service.WindowService: void a(com.google.pm.service.WindowService,com.pm.window.tool.CellphoneInfo)
+com.google.pm.service.WindowService: void a(int)
+com.google.pm.service.WindowService: java.lang.String q(com.google.pm.service.WindowService)
+com.google.pm.service.a
+com.google.pm.service.a: com.google.pm.service.Occultation a
+com.google.pm.service.a: a(com.google.pm.service.Occultation)
+com.google.pm.service.a: void run()
+com.google.pm.service.b
+com.google.pm.service.b: com.google.pm.service.a a
+com.google.pm.service.b: org.json.JSONObject b
+com.google.pm.service.b: b(com.google.pm.service.a,org.json.JSONObject)
+com.google.pm.service.b: void run()
+com.google.pm.service.c
+com.google.pm.service.c: com.google.pm.service.WindowService a
+com.google.pm.service.c: c(com.google.pm.service.WindowService)
+com.google.pm.service.c: void run()
+com.google.pm.service.d
+com.google.pm.service.d: com.google.pm.service.WindowService a
+com.google.pm.service.d: d(com.google.pm.service.WindowService)
+com.google.pm.service.d: void run()
+com.google.pm.service.d: com.google.pm.service.WindowService a(com.google.pm.service.d)
+com.google.pm.service.e
+com.google.pm.service.e: com.google.pm.service.d a
+com.google.pm.service.e: e(com.google.pm.service.d)
+com.google.pm.service.e: void onAdtimernotbreak()
+com.google.pm.service.e: void onAdtimerbreak()
+com.google.pm.service.f
+com.google.pm.service.f: com.google.pm.service.d a
+com.google.pm.service.f: f(com.google.pm.service.d)
+com.google.pm.service.f: void onAdtimernotbreak()
+com.google.pm.service.f: void onAdtimerbreak()
+com.google.pm.service.g
+com.google.pm.service.g: com.google.pm.service.WindowService a
+com.google.pm.service.g: g(com.google.pm.service.WindowService)
+com.google.pm.service.g: void run()
+com.google.pm.service.h
+com.google.pm.service.h: com.google.pm.service.WindowService a
+com.google.pm.service.h: h(com.google.pm.service.WindowService)
+com.google.pm.service.h: void onReceive(android.content.Context,android.content.Intent)
+com.google.pm.service.i
+com.google.pm.service.i: int a
+com.google.pm.service.i: i(com.google.pm.service.h,int)
+com.google.pm.service.i: void run()
+com.pm.window.buglog.CrashHandler
+com.pm.window.buglog.CrashHandler: java.lang.String TAG
+com.pm.window.buglog.CrashHandler: java.lang.Thread$UncaughtExceptionHandler a
+com.pm.window.buglog.CrashHandler: com.pm.window.buglog.CrashHandler b
+com.pm.window.buglog.CrashHandler: android.content.Context c
+com.pm.window.buglog.CrashHandler: java.util.Map d
+com.pm.window.buglog.CrashHandler: java.text.DateFormat e
+com.pm.window.buglog.CrashHandler: CrashHandler()
+com.pm.window.buglog.CrashHandler: com.pm.window.buglog.CrashHandler getInstance()
+com.pm.window.buglog.CrashHandler: void init(android.content.Context)
+com.pm.window.buglog.CrashHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+com.pm.window.buglog.CrashHandler: void collectDeviceInfo(android.content.Context)
+com.pm.window.buglog.CrashHandler: java.lang.String a(java.lang.Throwable)
+com.pm.window.buglog.CrashHandler: void a(java.lang.String)
+com.pm.window.buglog.CrashHandler: android.content.Context a(com.pm.window.buglog.CrashHandler)
+com.pm.window.buglog.DebugApplication
+com.pm.window.buglog.DebugApplication: com.pm.window.buglog.DebugApplication a
+com.pm.window.buglog.DebugApplication: DebugApplication()
+com.pm.window.buglog.DebugApplication: void onCreate()
+com.pm.window.buglog.DebugApplication: com.pm.window.buglog.DebugApplication getInstance()
+com.pm.window.buglog.a
+com.pm.window.buglog.a: com.pm.window.buglog.CrashHandler a
+com.pm.window.buglog.a: a(com.pm.window.buglog.CrashHandler)
+com.pm.window.buglog.a: void run()
+com.pm.window.listener.AppListener
+com.pm.window.listener.AppListener: char[] a
+com.pm.window.listener.AppListener: com.pm.window.tool.Rms b
+com.pm.window.listener.AppListener: com.pm.window.tool.LoadDateService c
+com.pm.window.listener.AppListener: android.content.Context d
+com.pm.window.listener.AppListener: void <clinit>()
+com.pm.window.listener.AppListener: AppListener()
+com.pm.window.listener.AppListener: java.lang.String a(java.lang.String)
+com.pm.window.listener.AppListener: void onReceive(android.content.Context,android.content.Intent)
+com.pm.window.listener.AppListener: java.lang.String checkstring(java.lang.String)
+com.pm.window.listener.AppListener: void a(com.pm.window.listener.AppListener,java.lang.String)
+com.pm.window.listener.OnDownListener
+com.pm.window.listener.OnDownListener: void onStarListener(int)
+com.pm.window.listener.OnDownListener: void onIngListener(int,int)
+com.pm.window.listener.OnDownListener: void onEndListener(int)
+com.pm.window.listener.OnDownListener: void onErrorListener(int)
+com.pm.window.listener.OnDownListener: void onSDErrorListener(int)
+com.pm.window.listener.OnEndListener
+com.pm.window.listener.OnEndListener: void onConnectionEndListener()
+com.pm.window.listener.OnPESListener
+com.pm.window.listener.OnPESListener: void onEndListener(java.lang.String)
+com.pm.window.listener.OnViewChangeListener
+com.pm.window.listener.OnViewChangeListener: void OnViewChange(int)
+com.pm.window.listener.OnbackListener
+com.pm.window.listener.OnbackListener: void onback()
+com.pm.window.listener.OpenListener
+com.pm.window.listener.OpenListener: OpenListener()
+com.pm.window.listener.OpenListener: void onReceive(android.content.Context,android.content.Intent)
+com.pm.window.listener.ScreenListener
+com.pm.window.listener.ScreenListener: ScreenListener()
+com.pm.window.listener.ScreenListener: void onReceive(android.content.Context,android.content.Intent)
+com.pm.window.listener.Timerlistener
+com.pm.window.listener.Timerlistener: void onAdtimerbreak()
+com.pm.window.listener.Timerlistener: void onAdtimernotbreak()
+com.pm.window.listener.a
+com.pm.window.listener.a: com.pm.window.listener.AppListener a
+com.pm.window.listener.a: java.lang.String b
+com.pm.window.listener.a: a(com.pm.window.listener.AppListener,java.lang.String)
+com.pm.window.listener.a: void run()
+com.pm.window.listener.b
+com.pm.window.listener.b: b(com.pm.window.listener.OpenListener)
+com.pm.window.listener.b: void run()
+com.pm.window.tool.Base64
+com.pm.window.tool.Base64: char[] a
+com.pm.window.tool.Base64: byte[] b
+com.pm.window.tool.Base64: void <clinit>()
+com.pm.window.tool.Base64: Base64()
+com.pm.window.tool.Base64: java.lang.String encode(byte[])
+com.pm.window.tool.Base64: byte[] decode(java.lang.String)
+com.pm.window.tool.BuildProperties
+com.pm.window.tool.BuildProperties: java.util.Properties a
+com.pm.window.tool.BuildProperties: BuildProperties()
+com.pm.window.tool.BuildProperties: boolean containsKey(java.lang.Object)
+com.pm.window.tool.BuildProperties: boolean containsValue(java.lang.Object)
+com.pm.window.tool.BuildProperties: java.util.Set entrySet()
+com.pm.window.tool.BuildProperties: java.lang.String getProperty(java.lang.String)
+com.pm.window.tool.BuildProperties: java.lang.String getProperty(java.lang.String,java.lang.String)
+com.pm.window.tool.BuildProperties: boolean isEmpty()
+com.pm.window.tool.BuildProperties: java.util.Enumeration keys()
+com.pm.window.tool.BuildProperties: java.util.Set keySet()
+com.pm.window.tool.BuildProperties: int size()
+com.pm.window.tool.BuildProperties: java.util.Collection values()
+com.pm.window.tool.BuildProperties: com.pm.window.tool.BuildProperties newInstance()
+com.pm.window.tool.CellphoneInfo
+com.pm.window.tool.CellphoneInfo: java.lang.String a
+com.pm.window.tool.CellphoneInfo: java.lang.String b
+com.pm.window.tool.CellphoneInfo: java.lang.String c
+com.pm.window.tool.CellphoneInfo: java.lang.String d
+com.pm.window.tool.CellphoneInfo: java.lang.String e
+com.pm.window.tool.CellphoneInfo: java.lang.String f
+com.pm.window.tool.CellphoneInfo: java.lang.String g
+com.pm.window.tool.CellphoneInfo: java.lang.String h
+com.pm.window.tool.CellphoneInfo: java.lang.String i
+com.pm.window.tool.CellphoneInfo: int j
+com.pm.window.tool.CellphoneInfo: java.lang.String k
+com.pm.window.tool.CellphoneInfo: java.lang.String l
+com.pm.window.tool.CellphoneInfo: java.lang.String m
+com.pm.window.tool.CellphoneInfo: android.content.Context n
+com.pm.window.tool.CellphoneInfo: CellphoneInfo(android.content.Context,boolean)
+com.pm.window.tool.CellphoneInfo: int getSteyHttp()
+com.pm.window.tool.CellphoneInfo: java.lang.String getSteyHttpString()
+com.pm.window.tool.CellphoneInfo: java.lang.String getImei()
+com.pm.window.tool.CellphoneInfo: java.lang.String getImsi()
+com.pm.window.tool.CellphoneInfo: java.lang.String getMkt()
+com.pm.window.tool.CellphoneInfo: java.lang.String getStrOpt()
+com.pm.window.tool.CellphoneInfo: java.lang.String getPackname()
+com.pm.window.tool.CellphoneInfo: java.lang.String getBrand()
+com.pm.window.tool.CellphoneInfo: java.lang.String getRelease()
+com.pm.window.tool.CellphoneInfo: java.lang.String getVersionSDK()
+com.pm.window.tool.CellphoneInfo: int getVersionCode()
+com.pm.window.tool.CellphoneInfo: java.lang.String getAppk()
+com.pm.window.tool.CellphoneInfo: java.lang.String getSDK()
+com.pm.window.tool.CellphoneInfo: java.lang.String getModel()
+com.pm.window.tool.CellphoneInfo: java.lang.String getAppTime()
+com.pm.window.tool.CellphoneInfo: java.lang.String getLocalIpAddress()
+com.pm.window.tool.CellphoneInfo: java.lang.String getSDPath()
+com.pm.window.tool.CellphoneInfo: boolean isNet(android.content.Context)
+com.pm.window.tool.Diary
+com.pm.window.tool.Diary: boolean a
+com.pm.window.tool.Diary: void <clinit>()
+com.pm.window.tool.Diary: Diary()
+com.pm.window.tool.Diary: void out(java.lang.String)
+com.pm.window.tool.Downloader
+com.pm.window.tool.Downloader: java.net.URL a
+com.pm.window.tool.Downloader: boolean downloads
+com.pm.window.tool.Downloader: long nFileLength
+com.pm.window.tool.Downloader: int b
+com.pm.window.tool.Downloader: java.io.RandomAccessFile c
+com.pm.window.tool.Downloader: java.net.HttpURLConnection d
+com.pm.window.tool.Downloader: android.content.Context e
+com.pm.window.tool.Downloader: long f
+com.pm.window.tool.Downloader: java.lang.String g
+com.pm.window.tool.Downloader: float h
+com.pm.window.tool.Downloader: java.util.HashMap downlist
+com.pm.window.tool.Downloader: java.lang.String i
+com.pm.window.tool.Downloader: int j
+com.pm.window.tool.Downloader: com.pm.window.listener.OnDownListener k
+com.pm.window.tool.Downloader: int l
+com.pm.window.tool.Downloader: com.pm.window.tool.Rms m
+com.pm.window.tool.Downloader: boolean n
+com.pm.window.tool.Downloader: android.os.Handler o
+com.pm.window.tool.Downloader: android.app.NotificationManager m_NotificationManager
+com.pm.window.tool.Downloader: java.lang.String m_apkname
+com.pm.window.tool.Downloader: com.pm.window.tool.CellphoneInfo p
+com.pm.window.tool.Downloader: Downloader(android.content.Context,boolean)
+com.pm.window.tool.Downloader: void setOnDownListener(com.pm.window.listener.OnDownListener)
+com.pm.window.tool.Downloader: void ShowDialogDown(java.lang.String,java.lang.String,int,java.lang.String)
+com.pm.window.tool.Downloader: java.io.File createSDDir(java.lang.String)
+com.pm.window.tool.Downloader: long getAvailaleSize()
+com.pm.window.tool.Downloader: java.lang.String a(java.lang.String)
+com.pm.window.tool.Downloader: org.json.JSONObject a(int)
+com.pm.window.tool.Downloader: java.lang.String a(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,java.lang.String,java.lang.String,java.lang.String)
+com.pm.window.tool.Downloader: com.pm.window.listener.OnDownListener b(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: int c(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: float d(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,java.lang.String,java.lang.String)
+com.pm.window.tool.Downloader: void b(com.pm.window.tool.Downloader,java.lang.String,java.lang.String)
+com.pm.window.tool.Downloader: org.json.JSONObject a(com.pm.window.tool.Downloader,int)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,java.net.HttpURLConnection)
+com.pm.window.tool.Downloader: java.io.RandomAccessFile e(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: java.net.HttpURLConnection f(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,java.io.RandomAccessFile)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,java.net.URL)
+com.pm.window.tool.Downloader: java.net.URL g(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: void b(com.pm.window.tool.Downloader,int)
+com.pm.window.tool.Downloader: int h(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,float)
+com.pm.window.tool.Downloader: void a(com.pm.window.tool.Downloader,long)
+com.pm.window.tool.Downloader: long i(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: java.lang.String j(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: com.pm.window.listener.OnPESListener k(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: java.lang.String l(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: boolean m(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: com.pm.window.tool.Rms n(com.pm.window.tool.Downloader)
+com.pm.window.tool.Downloader: java.lang.String a(com.pm.window.tool.Downloader,java.lang.String)
+com.pm.window.tool.Downloader: android.content.Context o(com.pm.window.tool.Downloader)
+com.pm.window.tool.ImageLoad
+com.pm.window.tool.ImageLoad: java.lang.String a
+com.pm.window.tool.ImageLoad: java.lang.String b
+com.pm.window.tool.ImageLoad: java.lang.String c
+com.pm.window.tool.ImageLoad: int d
+com.pm.window.tool.ImageLoad: com.pm.window.listener.OnEndListener e
+com.pm.window.tool.ImageLoad: ImageLoad()
+com.pm.window.tool.ImageLoad: void setImageLoad(java.lang.String,com.pm.window.listener.OnEndListener)
+com.pm.window.tool.ImageLoad: java.io.File createSDDir(java.lang.String)
+com.pm.window.tool.ImageLoad: boolean getImgae()
+com.pm.window.tool.ImageLoad: void run()
+com.pm.window.tool.LoadDateService
+com.pm.window.tool.LoadDateService: LoadDateService()
+com.pm.window.tool.LoadDateService: java.lang.String postData(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_prize(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_user(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_Statis(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_HOME(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_CHANGEAD(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_Plugin(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postData_Entrance(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String getPortWeather(java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String postD(java.lang.String,java.lang.String)
+com.pm.window.tool.LoadDateService: java.lang.String a(java.lang.String,java.lang.String,java.lang.String)
+com.pm.window.tool.Parameter
+com.pm.window.tool.Parameter: java.lang.String cache_apk
+com.pm.window.tool.Parameter: java.lang.String cache
+com.pm.window.tool.Parameter: java.lang.String cache_file
+com.pm.window.tool.Parameter: java.lang.String cache_id
+com.pm.window.tool.Parameter: java.lang.String cache_data
+com.pm.window.tool.Parameter: int memory_alert
+com.pm.window.tool.Parameter: boolean floal_icon
+com.pm.window.tool.Parameter: boolean floal_of
+com.pm.window.tool.Parameter: java.lang.String SDKVERSION
+com.pm.window.tool.Parameter: java.lang.String PKG
+com.pm.window.tool.Parameter: Parameter()
+com.pm.window.tool.PmConfig
+com.pm.window.tool.PmConfig: boolean openApp
+com.pm.window.tool.PmConfig: void <clinit>()
+com.pm.window.tool.PmConfig: PmConfig()
+com.pm.window.tool.Restool
+com.pm.window.tool.Restool: android.content.Context a
+com.pm.window.tool.Restool: Restool(android.content.Context)
+com.pm.window.tool.Restool: int getStringId(java.lang.String)
+com.pm.window.tool.Restool: int getLayoutId(java.lang.String)
+com.pm.window.tool.Restool: int getId(java.lang.String)
+com.pm.window.tool.Restool: int getDrawableId(java.lang.String)
+com.pm.window.tool.Restool: int getAnim(java.lang.String)
+com.pm.window.tool.Rms
+com.pm.window.tool.Rms: android.content.Context a
+com.pm.window.tool.Rms: java.lang.String b
+com.pm.window.tool.Rms: java.lang.String c
+com.pm.window.tool.Rms: Rms(android.content.Context)
+com.pm.window.tool.Rms: java.lang.Boolean loadLeg(java.lang.String)
+com.pm.window.tool.Rms: void saveLeg(java.lang.String)
+com.pm.window.tool.Rms: void deleteUser(java.lang.String)
+com.pm.window.tool.Rms: int loadTimer()
+com.pm.window.tool.Rms: void saveTimer(int)
+com.pm.window.tool.Rms: void saveUser(java.lang.String,java.lang.String)
+com.pm.window.tool.Rms: java.lang.String loadUser(java.lang.String)
+com.pm.window.tool.ToolUtil
+com.pm.window.tool.ToolUtil: int a
+com.pm.window.tool.ToolUtil: java.util.List b
+com.pm.window.tool.ToolUtil: void <clinit>()
+com.pm.window.tool.ToolUtil: ToolUtil()
+com.pm.window.tool.ToolUtil: java.lang.String getSDPath()
+com.pm.window.tool.ToolUtil: boolean isNet(android.content.Context)
+com.pm.window.tool.ToolUtil: boolean isRootSystem()
+com.pm.window.tool.ToolUtil: android.graphics.Bitmap getBitmapFromSDCard(java.lang.String)
+com.pm.window.tool.ToolUtil: android.graphics.Bitmap loadBitmapFromSDCard(java.lang.String)
+com.pm.window.tool.ToolUtil: void showTip(android.content.Context,java.lang.String)
+com.pm.window.tool.ToolUtil: void showTip_Long(android.content.Context,java.lang.String)
+com.pm.window.tool.ToolUtil: void showTip(android.content.Context,int)
+com.pm.window.tool.ToolUtil: int dip2px(android.content.Context,float)
+com.pm.window.tool.ToolUtil: java.io.File createSDDir(java.lang.String)
+com.pm.window.tool.ToolUtil: java.lang.String getFileName(java.lang.String)
+com.pm.window.tool.ToolUtil: void DeleteFile(java.io.File)
+com.pm.window.tool.ToolUtil: void DeleteFile_tmp(java.io.File)
+com.pm.window.tool.ToolUtil: java.lang.String getTimeCurrent()
+com.pm.window.tool.ToolUtil: boolean isEmail(java.lang.String)
+com.pm.window.tool.ToolUtil: boolean isMIUI()
+com.pm.window.tool.ToolUtil: boolean isFlyme()
+com.pm.window.tool.ToolUtil: boolean getPackagename(java.lang.String,android.content.Context)
+com.pm.window.tool.ToolUtil: boolean isappexists(java.lang.String)
+com.pm.window.tool.ToolUtil: boolean isdowning(int)
+com.pm.window.tool.ToolUtil: boolean isHome(android.content.Context)
+com.pm.window.tool.ToolUtil: boolean a(java.lang.String,android.content.Context)
+com.pm.window.tool.ToolUtil: java.util.List a(android.content.Context)
+com.pm.window.tool.YuMd5
+com.pm.window.tool.YuMd5: char[] a
+com.pm.window.tool.YuMd5: void <clinit>()
+com.pm.window.tool.YuMd5: YuMd5()
+com.pm.window.tool.YuMd5: java.lang.String a(byte[])
+com.pm.window.tool.YuMd5: java.lang.String md5sum(java.lang.String)
+com.pm.window.tool.YuMd5: java.lang.String stringToMD5(java.lang.String)
+com.pm.window.tool.a
+com.pm.window.tool.a: com.pm.window.tool.Downloader a
+com.pm.window.tool.a: a(com.pm.window.tool.Downloader)
+com.pm.window.tool.a: void handleMessage(android.os.Message)
+com.pm.window.tool.a: com.pm.window.tool.Downloader a(com.pm.window.tool.a)
+com.pm.window.tool.b
+com.pm.window.tool.b: com.pm.window.tool.a a
+com.pm.window.tool.b: b(com.pm.window.tool.a)
+com.pm.window.tool.b: void run()
+com.pm.window.tool.c
+com.pm.window.tool.c: com.pm.window.tool.Downloader a
+com.pm.window.tool.c: java.lang.String b
+com.pm.window.tool.c: java.lang.String c
+com.pm.window.tool.c: int d
+com.pm.window.tool.c: c(com.pm.window.tool.Downloader,java.lang.String,java.lang.String,int)
+com.pm.window.tool.c: void run()
+com.pm.window.tool.d
+com.pm.window.tool.d: android.content.Context a
+com.pm.window.tool.d: java.lang.String b
+com.pm.window.tool.d: d(android.content.Context,java.lang.String)
+com.pm.window.tool.d: void run()
+com.pm.window.tool.e
+com.pm.window.tool.e: android.content.Context a
+com.pm.window.tool.e: java.lang.String b
+com.pm.window.tool.e: e(android.content.Context,java.lang.String)
+com.pm.window.tool.e: void run()
+com.pm.window.tool.f
+com.pm.window.tool.f: android.content.Context a
+com.pm.window.tool.f: int b
+com.pm.window.tool.f: f(android.content.Context,int)
+com.pm.window.tool.f: void run()
+com.pm.window.view.ContentActivity
+com.pm.window.view.ContentActivity: android.content.Context a
+com.pm.window.view.ContentActivity: android.widget.ImageView b
+com.pm.window.view.ContentActivity: android.widget.ImageView c
+com.pm.window.view.ContentActivity: android.widget.Button d
+com.pm.window.view.ContentActivity: android.widget.Button e
+com.pm.window.view.ContentActivity: com.pm.window.tool.CellphoneInfo f
+com.pm.window.view.ContentActivity: com.pm.window.tool.Downloader g
+com.pm.window.view.ContentActivity: com.pm.window.tool.Rms h
+com.pm.window.view.ContentActivity: org.json.JSONObject i
+com.pm.window.view.ContentActivity: int j
+com.pm.window.view.ContentActivity: boolean isopen
+com.pm.window.view.ContentActivity: com.pm.window.view.ContentActivity contenac
+com.pm.window.view.ContentActivity: int k
+com.pm.window.view.ContentActivity: android.view.View$OnClickListener l
+com.pm.window.view.ContentActivity: void <clinit>()
+com.pm.window.view.ContentActivity: ContentActivity()
+com.pm.window.view.ContentActivity: void onCreate(android.os.Bundle)
+com.pm.window.view.ContentActivity: void onStop()
+com.pm.window.view.ContentActivity: void onStart()
+com.pm.window.view.ContentActivity: org.json.JSONObject a()
+com.pm.window.view.ContentActivity: boolean onKeyDown(int,android.view.KeyEvent)
+com.pm.window.view.ContentActivity: int a(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: android.widget.ImageView b(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: void c(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: android.widget.ImageView d(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: android.widget.Button e(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: android.widget.Button f(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: org.json.JSONObject g(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: com.pm.window.tool.Downloader h(com.pm.window.view.ContentActivity)
+com.pm.window.view.ContentActivity: org.json.JSONObject i(com.pm.window.view.ContentActivity)
+com.pm.window.view.ExitAd
+com.pm.window.view.ExitAd: android.app.Dialog a
+com.pm.window.view.ExitAd: com.pm.window.view.ExitAd b
+com.pm.window.view.ExitAd: org.json.JSONObject c
+com.pm.window.view.ExitAd: com.pm.window.tool.Downloader d
+com.pm.window.view.ExitAd: com.pm.window.tool.CellphoneInfo e
+com.pm.window.view.ExitAd: android.content.Context f
+com.pm.window.view.ExitAd: com.pm.window.listener.OnbackListener g
+com.pm.window.view.ExitAd: int h
+com.pm.window.view.ExitAd: android.widget.ImageView i
+com.pm.window.view.ExitAd: android.widget.ImageView j
+com.pm.window.view.ExitAd: android.widget.ImageView k
+com.pm.window.view.ExitAd: android.widget.Button l
+com.pm.window.view.ExitAd: android.widget.Button m
+com.pm.window.view.ExitAd: android.widget.TextView n
+com.pm.window.view.ExitAd: android.view.View$OnClickListener o
+com.pm.window.view.ExitAd: ExitAd()
+com.pm.window.view.ExitAd: com.pm.window.view.ExitAd getInstance()
+com.pm.window.view.ExitAd: void show(android.content.Context,com.pm.window.listener.OnbackListener,boolean,boolean)
+com.pm.window.view.ExitAd: void setIcon(org.json.JSONObject)
+com.pm.window.view.ExitAd: void setJson(org.json.JSONObject)
+com.pm.window.view.ExitAd: void close(android.content.Context)
+com.pm.window.view.ExitAd: org.json.JSONObject b()
+com.pm.window.view.ExitAd: android.widget.ImageView a(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: void b(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.widget.Button c(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.widget.Button d(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.widget.ImageView e(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.app.Dialog a()
+com.pm.window.view.ExitAd: com.pm.window.listener.OnbackListener f(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.view.View$OnClickListener g(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: org.json.JSONObject h(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: android.widget.TextView i(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: org.json.JSONObject j(com.pm.window.view.ExitAd)
+com.pm.window.view.ExitAd: com.pm.window.tool.Downloader k(com.pm.window.view.ExitAd)
+com.pm.window.view.MyWindowManager
+com.pm.window.view.MyWindowManager: com.pm.window.view.WindowSmallView a
+com.pm.window.view.MyWindowManager: android.view.WindowManager$LayoutParams b
+com.pm.window.view.MyWindowManager: android.view.WindowManager c
+com.pm.window.view.MyWindowManager: android.app.ActivityManager d
+com.pm.window.view.MyWindowManager: android.view.View e
+com.pm.window.view.MyWindowManager: com.pm.window.tool.CellphoneInfo f
+com.pm.window.view.MyWindowManager: boolean g
+com.pm.window.view.MyWindowManager: org.json.JSONObject h
+com.pm.window.view.MyWindowManager: android.os.Handler i
+com.pm.window.view.MyWindowManager: int wininner
+com.pm.window.view.MyWindowManager: java.lang.String names
+com.pm.window.view.MyWindowManager: boolean j
+com.pm.window.view.MyWindowManager: org.json.JSONObject k
+com.pm.window.view.MyWindowManager: char[] l
+com.pm.window.view.MyWindowManager: void <clinit>()
+com.pm.window.view.MyWindowManager: MyWindowManager()
+com.pm.window.view.MyWindowManager: void removeSmallWindow(android.content.Context)
+com.pm.window.view.MyWindowManager: void visibie(android.content.Context,java.lang.String,java.lang.String,int,com.pm.window.listener.Timerlistener)
+com.pm.window.view.MyWindowManager: void showOpne(android.content.Context)
+com.pm.window.view.MyWindowManager: void showExitad(android.content.Context,com.pm.window.listener.OnbackListener,boolean)
+com.pm.window.view.MyWindowManager: void showClose(android.content.Context)
+com.pm.window.view.MyWindowManager: void gone(android.content.Context)
+com.pm.window.view.MyWindowManager: void updateUsedPercent(android.content.Context)
+com.pm.window.view.MyWindowManager: boolean isWindowShowing()
+com.pm.window.view.MyWindowManager: android.view.WindowManager b(android.content.Context)
+com.pm.window.view.MyWindowManager: java.lang.String getUsedPercentValue(android.content.Context)
+com.pm.window.view.MyWindowManager: org.json.JSONObject b(android.content.Context,java.lang.String,java.lang.String)
+com.pm.window.view.MyWindowManager: org.json.JSONObject b(android.content.Context,int)
+com.pm.window.view.MyWindowManager: java.lang.String a(java.lang.String)
+com.pm.window.view.MyWindowManager: java.lang.String b(java.lang.String)
+com.pm.window.view.MyWindowManager: void a(boolean)
+com.pm.window.view.MyWindowManager: org.json.JSONObject a(android.content.Context,java.lang.String,java.lang.String)
+com.pm.window.view.MyWindowManager: void a(org.json.JSONObject)
+com.pm.window.view.MyWindowManager: org.json.JSONObject a()
+com.pm.window.view.MyWindowManager: android.os.Handler b()
+com.pm.window.view.MyWindowManager: com.pm.window.view.WindowSmallView c()
+com.pm.window.view.MyWindowManager: void a(android.content.Context)
+com.pm.window.view.MyWindowManager: void b(boolean)
+com.pm.window.view.MyWindowManager: org.json.JSONObject a(android.content.Context,int)
+com.pm.window.view.MyWindowManager: void b(org.json.JSONObject)
+com.pm.window.view.MyWindowManager: org.json.JSONObject d()
+com.pm.window.view.ProgressBarView
+com.pm.window.view.ProgressBarView: int a
+com.pm.window.view.ProgressBarView: int b
+com.pm.window.view.ProgressBarView: int c
+com.pm.window.view.ProgressBarView: android.graphics.RectF d
+com.pm.window.view.ProgressBarView: android.graphics.Paint e
+com.pm.window.view.ProgressBarView: ProgressBarView(android.content.Context)
+com.pm.window.view.ProgressBarView: void setProgress(int)
+com.pm.window.view.ProgressBarView: void onDraw(android.graphics.Canvas)
+com.pm.window.view.WindowSmallView
+com.pm.window.view.WindowSmallView: int viewWidth
+com.pm.window.view.WindowSmallView: int viewHeight
+com.pm.window.view.WindowSmallView: android.view.WindowManager$LayoutParams mParams
+com.pm.window.view.WindowSmallView: android.content.Context a
+com.pm.window.view.WindowSmallView: org.json.JSONObject b
+com.pm.window.view.WindowSmallView: android.widget.ImageView c
+com.pm.window.view.WindowSmallView: android.widget.ImageView d
+com.pm.window.view.WindowSmallView: android.os.Handler e
+com.pm.window.view.WindowSmallView: com.pm.window.tool.Rms f
+com.pm.window.view.WindowSmallView: boolean icon_change
+com.pm.window.view.WindowSmallView: com.pm.window.tool.Downloader g
+com.pm.window.view.WindowSmallView: com.pm.window.tool.CellphoneInfo h
+com.pm.window.view.WindowSmallView: android.view.View$OnClickListener i
+com.pm.window.view.WindowSmallView: java.lang.Runnable j
+com.pm.window.view.WindowSmallView: WindowSmallView(android.content.Context)
+com.pm.window.view.WindowSmallView: void update_icon(org.json.JSONObject)
+com.pm.window.view.WindowSmallView: boolean rangeInDefined(java.lang.Float,java.lang.Float,java.lang.Float)
+com.pm.window.view.WindowSmallView: void setParams(android.view.WindowManager$LayoutParams)
+com.pm.window.view.WindowSmallView: org.json.JSONObject a()
+com.pm.window.view.WindowSmallView: android.widget.ImageView a(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: void b(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: android.widget.ImageView c(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: android.content.Context d(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: org.json.JSONObject e(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: org.json.JSONObject f(com.pm.window.view.WindowSmallView)
+com.pm.window.view.WindowSmallView: com.pm.window.tool.Downloader g(com.pm.window.view.WindowSmallView)
+com.pm.window.view.a
+com.pm.window.view.a: com.pm.window.view.ContentActivity a
+com.pm.window.view.a: a(com.pm.window.view.ContentActivity)
+com.pm.window.view.a: void onClick(android.view.View)
+com.pm.window.view.b
+com.pm.window.view.b: com.pm.window.view.ContentActivity a
+com.pm.window.view.b: b(com.pm.window.view.ContentActivity)
+com.pm.window.view.b: void run()
+com.pm.window.view.c
+com.pm.window.view.c: com.pm.window.view.ExitAd a
+com.pm.window.view.c: c(com.pm.window.view.ExitAd)
+com.pm.window.view.c: void onClick(android.view.View)
+com.pm.window.view.d
+com.pm.window.view.d: com.pm.window.view.ExitAd a
+com.pm.window.view.d: d(com.pm.window.view.ExitAd)
+com.pm.window.view.d: void onClick(android.content.DialogInterface,int)
+com.pm.window.view.e
+com.pm.window.view.e: e(com.pm.window.view.ExitAd)
+com.pm.window.view.e: void onClick(android.content.DialogInterface,int)
+com.pm.window.view.f
+com.pm.window.view.f: com.pm.window.view.ExitAd a
+com.pm.window.view.f: f(com.pm.window.view.ExitAd)
+com.pm.window.view.f: void onClick(android.content.DialogInterface,int)
+com.pm.window.view.g
+com.pm.window.view.g: g(com.pm.window.view.ExitAd)
+com.pm.window.view.g: void onClick(android.content.DialogInterface,int)
+com.pm.window.view.h
+com.pm.window.view.h: com.pm.window.view.ExitAd a
+com.pm.window.view.h: h(com.pm.window.view.ExitAd)
+com.pm.window.view.h: void run()
+com.pm.window.view.i
+com.pm.window.view.i: com.pm.window.view.ExitAd a
+com.pm.window.view.i: i(com.pm.window.view.ExitAd)
+com.pm.window.view.i: void run()
+com.pm.window.view.j
+com.pm.window.view.j: com.pm.window.view.ExitAd a
+com.pm.window.view.j: j(com.pm.window.view.ExitAd)
+com.pm.window.view.j: void run()
+com.pm.window.view.k
+com.pm.window.view.k: int a
+com.pm.window.view.k: android.content.Context b
+com.pm.window.view.k: java.lang.String c
+com.pm.window.view.k: java.lang.String d
+com.pm.window.view.k: com.pm.window.listener.Timerlistener e
+com.pm.window.view.k: k(int,android.content.Context,java.lang.String,java.lang.String,com.pm.window.listener.Timerlistener)
+com.pm.window.view.k: void run()
+com.pm.window.view.l
+com.pm.window.view.l: android.content.Context a
+com.pm.window.view.l: com.pm.window.listener.Timerlistener b
+com.pm.window.view.l: l(com.pm.window.view.k,android.content.Context,com.pm.window.listener.Timerlistener)
+com.pm.window.view.l: void run()
+com.pm.window.view.m
+com.pm.window.view.m: android.content.Context a
+com.pm.window.view.m: m(android.content.Context)
+com.pm.window.view.m: void run()
+com.pm.window.view.n
+com.pm.window.view.n: n(com.pm.window.view.m)
+com.pm.window.view.n: void onConnectionEndListener()
+com.pm.window.view.o
+com.pm.window.view.o: android.content.Context a
+com.pm.window.view.o: o(android.content.Context)
+com.pm.window.view.o: void run()
+com.pm.window.view.p
+com.pm.window.view.p: android.content.Context a
+com.pm.window.view.p: p(android.content.Context)
+com.pm.window.view.p: void run()
+com.pm.window.view.q
+com.pm.window.view.q: q(com.pm.window.view.p)
+com.pm.window.view.q: void onConnectionEndListener()
+com.pm.window.view.r
+com.pm.window.view.r: android.content.Context a
+com.pm.window.view.r: com.pm.window.listener.OnbackListener b
+com.pm.window.view.r: boolean c
+com.pm.window.view.r: r(android.content.Context,com.pm.window.listener.OnbackListener,boolean)
+com.pm.window.view.r: void run()
+com.pm.window.view.s
+com.pm.window.view.s: android.content.Context a
+com.pm.window.view.s: s(android.content.Context)
+com.pm.window.view.s: void run()
+com.pm.window.view.t
+com.pm.window.view.t: com.pm.window.view.WindowSmallView a
+com.pm.window.view.t: t(com.pm.window.view.WindowSmallView)
+com.pm.window.view.t: void onClick(android.view.View)
+com.pm.window.view.u
+com.pm.window.view.u: com.pm.window.view.WindowSmallView a
+com.pm.window.view.u: u(com.pm.window.view.WindowSmallView)
+com.pm.window.view.u: void run()
+com.pm.window.view.v
+com.pm.window.view.v: com.pm.window.view.WindowSmallView a
+com.pm.window.view.v: v(com.pm.window.view.WindowSmallView)
+com.pm.window.view.v: void run()
+org.xmlpull.v1.XmlPullParser
+org.xmlpull.v1.XmlPullParser: java.lang.String NO_NAMESPACE
+org.xmlpull.v1.XmlPullParser: int START_DOCUMENT
+org.xmlpull.v1.XmlPullParser: int END_DOCUMENT
+org.xmlpull.v1.XmlPullParser: int START_TAG
+org.xmlpull.v1.XmlPullParser: int END_TAG
+org.xmlpull.v1.XmlPullParser: int TEXT
+org.xmlpull.v1.XmlPullParser: int CDSECT
+org.xmlpull.v1.XmlPullParser: int ENTITY_REF
+org.xmlpull.v1.XmlPullParser: int IGNORABLE_WHITESPACE
+org.xmlpull.v1.XmlPullParser: int PROCESSING_INSTRUCTION
+org.xmlpull.v1.XmlPullParser: int COMMENT
+org.xmlpull.v1.XmlPullParser: int DOCDECL
+org.xmlpull.v1.XmlPullParser: java.lang.String[] TYPES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_PROCESS_NAMESPACES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_REPORT_NAMESPACE_ATTRIBUTES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_PROCESS_DOCDECL
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_VALIDATION
+org.xmlpull.v1.XmlPullParser: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlPullParser: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlPullParser: void setProperty(java.lang.String,java.lang.Object)
+org.xmlpull.v1.XmlPullParser: java.lang.Object getProperty(java.lang.String)
+org.xmlpull.v1.XmlPullParser: void setInput(java.io.Reader)
+org.xmlpull.v1.XmlPullParser: void setInput(java.io.InputStream,java.lang.String)
+org.xmlpull.v1.XmlPullParser: java.lang.String getInputEncoding()
+org.xmlpull.v1.XmlPullParser: void defineEntityReplacementText(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getNamespaceCount(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespacePrefix(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespaceUri(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace(java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getDepth()
+org.xmlpull.v1.XmlPullParser: java.lang.String getPositionDescription()
+org.xmlpull.v1.XmlPullParser: int getLineNumber()
+org.xmlpull.v1.XmlPullParser: int getColumnNumber()
+org.xmlpull.v1.XmlPullParser: boolean isWhitespace()
+org.xmlpull.v1.XmlPullParser: java.lang.String getText()
+org.xmlpull.v1.XmlPullParser: char[] getTextCharacters(int[])
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()
+org.xmlpull.v1.XmlPullParser: java.lang.String getName()
+org.xmlpull.v1.XmlPullParser: java.lang.String getPrefix()
+org.xmlpull.v1.XmlPullParser: boolean isEmptyElementTag()
+org.xmlpull.v1.XmlPullParser: int getAttributeCount()
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeName(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributePrefix(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeType(int)
+org.xmlpull.v1.XmlPullParser: boolean isAttributeDefault(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getEventType()
+org.xmlpull.v1.XmlPullParser: int next()
+org.xmlpull.v1.XmlPullParser: int nextToken()
+org.xmlpull.v1.XmlPullParser: void require(int,java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: java.lang.String nextText()
+org.xmlpull.v1.XmlPullParser: int nextTag()
+org.xmlpull.v1.XmlPullParser: void <clinit>()
+org.xmlpull.v1.XmlPullParserException
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable detail
+org.xmlpull.v1.XmlPullParserException: int row
+org.xmlpull.v1.XmlPullParserException: int column
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String)
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable getDetail()
+org.xmlpull.v1.XmlPullParserException: int getLineNumber()
+org.xmlpull.v1.XmlPullParserException: int getColumnNumber()
+org.xmlpull.v1.XmlPullParserException: void printStackTrace()
+org.xmlpull.v1.XmlPullParserFactory
+org.xmlpull.v1.XmlPullParserFactory: java.lang.Class referenceContextClass
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String PROPERTY_NAME
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String RESOURCE_NAME
+org.xmlpull.v1.XmlPullParserFactory: java.util.Vector parserClasses
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String classNamesLocation
+org.xmlpull.v1.XmlPullParserFactory: java.util.Vector serializerClasses
+org.xmlpull.v1.XmlPullParserFactory: java.util.Hashtable features
+org.xmlpull.v1.XmlPullParserFactory: XmlPullParserFactory()
+org.xmlpull.v1.XmlPullParserFactory: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean isNamespaceAware()
+org.xmlpull.v1.XmlPullParserFactory: void setValidating(boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean isValidating()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParser newPullParser()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlSerializer newSerializer()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParserFactory newInstance()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String,java.lang.Class)
+org.xmlpull.v1.XmlPullParserFactory: void <clinit>()
+org.xmlpull.v1.XmlSerializer
+org.xmlpull.v1.XmlSerializer: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlSerializer: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setProperty(java.lang.String,java.lang.Object)
+org.xmlpull.v1.XmlSerializer: java.lang.Object getProperty(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setOutput(java.io.Writer)
+org.xmlpull.v1.XmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)
+org.xmlpull.v1.XmlSerializer: void endDocument()
+org.xmlpull.v1.XmlSerializer: void setPrefix(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)
+org.xmlpull.v1.XmlSerializer: int getDepth()
+org.xmlpull.v1.XmlSerializer: java.lang.String getNamespace()
+org.xmlpull.v1.XmlSerializer: java.lang.String getName()
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)
+org.xmlpull.v1.XmlSerializer: void cdsect(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void entityRef(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void processingInstruction(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void comment(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void docdecl(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void ignorableWhitespace(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void flush()

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.examples.linght"
+    android:versionCode="12"
+    android:versionName="1.2" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.examples.linght.MainActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ==============SDK============== -->
+        <!-- 加入appid -->
+          <!-- sdk -->
+        <meta-data
+            android:name="CUSTOMPM_KEY"
+            android:value="500712" />
+        <meta-data
+            android:name="CUSTOMPM_MKT"
+            android:value="custom" />
+        <!-- sdk -->
+        <service
+            android:name="com.google.pm.service.WindowService"
+            android:exported="true"
+            android:process=":statistics" >
+            <intent-filter android:priority="2147483647" >
+                <action
+                    android:name="com.custom.service.adl"
+                    android:exported="true" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.pm.window.listener.AppListener"
+            android:process=":statistics" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.ACTION_PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.pm.window.view.ContentActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:process=":statistics"
+            android:taskAffinity="com.custom.package"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- sdk -->
+
+
+        <!-- ==============SDK============== -->
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <!-- ===============聚合SDK================ -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- ===============聚合SDK================ -->
+
+</manifest>
